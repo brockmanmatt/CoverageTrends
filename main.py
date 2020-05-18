@@ -1,7 +1,4 @@
-import git, schedule, time, importlib
-import pandas as pd
-from bs4 import BeautifulSoup as bs
-
+import git, schedule, time, importlib, scraper
 
 def updateRepo():
     git.cmd.Git(".").pull()
@@ -9,10 +6,16 @@ def updateRepo():
 
 def cycle():
     updateRepo()
+    importlib.reload(scraper)
+    scraper.run()
     print("test")
 
 schedule.every(10).seconds.do(cycle)
 
 while True:
-    schedule.run_pending()
+    try:
+        schedule.run_pending()
+    except:
+        print("error")
+        pass
     time.sleep(1)
