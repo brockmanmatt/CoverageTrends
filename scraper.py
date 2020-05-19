@@ -9,7 +9,7 @@ from parsers import *
 def run(verbose=False):
     myTime = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d-%H00')
     myDate = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d')
-    myMonth = myDate = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m')
+    myMonth = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m')
 
     sources = pd.read_excel("NewsSites.xlsx")
 
