@@ -15,6 +15,7 @@ def cycle():
 def git_push(message='auto-update'):
     try:
         repo = Repo("./.git")
+        repo.git.add("scrapes")
         repo.git.add(update=True)
         repo.index.commit(message)
         origin = repo.remote(name='origin')
