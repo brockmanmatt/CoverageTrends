@@ -32,7 +32,7 @@ schedule.every().day.at("12:00").do(cycle)
 schedule.every().day.at("16:00").do(cycle)
 schedule.every().day.at("20:00").do(cycle)
 
-updateRepo()
+cycle()
 
 while True:
     try:
