@@ -4,13 +4,12 @@ import time, datetime
 
 from datetime import timezone
 
-print("LOADED")
 from parsers import *
 
 def run():
     myTime = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d-%H00')
     myDate = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d')
-    myMonth = myDate = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m')    print("changed")
+    myMonth = myDate = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m')
 
     sources = pd.read_excel("NewsSites.xlsx")
 
