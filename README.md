@@ -17,3 +17,6 @@ contains a folder for each news site, where within each folder there's a .csv fo
 20200519 - switched to hourly instead of every 4 hours
 
 # Minor Additions
+
+## Questions?
+mattbrockman(at)gmail(dat)com
