@@ -1,4 +1,5 @@
 import git, schedule, time, importlib, scraper, os
+from git import Repo
 
 
 def updateRepo():
@@ -13,7 +14,7 @@ def cycle():
 
 def git_push(message='auto-update'):
     try:
-        repo = Repo(".")
+        repo = Repo("./.git")
         repo.git.add(update=True)
         repo.index.commit(message)
         origin = repo.remote(name='origin')
