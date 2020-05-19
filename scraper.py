@@ -35,4 +35,4 @@ def run(verbose=False):
                     print(e)
                 pass
 if __name__ == '__main__':
-    run()
+    run(verbose=True)
