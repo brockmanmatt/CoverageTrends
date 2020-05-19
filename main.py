@@ -21,7 +21,7 @@ def git_push(message='auto-update'):
     except:
         print('Some error occured while pushing the code')
 
-os.makedir("scrapes", exist_ok=True)
+os.makedirs("scrapes", exist_ok=True)
 
 schedule.every(1).hours.do(cycle)
 
