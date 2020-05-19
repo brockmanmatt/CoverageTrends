@@ -32,7 +32,7 @@ schedule.every().day.at("13:00").do(cycle)
 schedule.every().day.at("17:00").do(cycle)
 schedule.every().day.at("21:00").do(cycle)
 
-while False:
+while True:
     try:
         print("New Cycle!")
         schedule.run_pending()
