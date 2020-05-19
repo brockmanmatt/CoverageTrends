@@ -1,4 +1,4 @@
-import git, schedule, time, importlib, scraper
+import git, schedule, time, importlib, scraper, os
 
 
 def updateRepo():
