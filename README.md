@@ -7,5 +7,8 @@ Sets timers to run every 4 hours
 # scraper.py
 uses each parser in parsers to scrape each news site and add to the daily csv for each news source.
 
+# parsers
+contains a parser for each news site which visits the home page and scrapes the linked headlines and urls.
+
 # archived links
 contains a folder for each news site, where within each folder there's a .csv for each day with the headlines and urls on the home page at each scrape. Time is normalized to UTC time.
