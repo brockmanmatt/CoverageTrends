@@ -23,16 +23,19 @@ def scrape():
 	#asdf have to mess with the JSON, i hate my life.
 	#I wonder if I could have done this with CNN...
 	#but parsing CNN was way harder for some reason
-	scripts = [x for x in soup.find_all("script") if x.text.find("var tc_app_data") > -1][0].text
-	scripts = json.loads(scripts[19:-2])
-	articles = scripts["feature_islands"]["homepage"]
+	#i think the datacenter this is hosted in is blocked though
+	try:
+		scripts = [x for x in soup.find_all("script") if x.text.find("var tc_app_data") > -1][0].text
+		scripts = json.loads(scripts[19:-2])
+		articles = scripts["feature_islands"]["homepage"]
 
-	for article in articles:
-		myLink = article["link"]
-		results[myLink] = {}
-		results[myLink]["text"] = article["title"]["rendered"]
-		results[myLink]["notes"] = ""
-
+		for article in articles:
+			myLink = article["link"]
+			results[myLink] = {}
+			results[myLink]["text"] = article["title"]["rendered"]
+			results[myLink]["notes"] = ""
+	except:
+		pass
 
 	for link in soup.find_all('a', href=True):
 		if not goodPage(link):
