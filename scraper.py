@@ -57,7 +57,6 @@ def run(verbose=False, path="archived_links", checkSelenium=False):
         options.add_argument('--no-sandbox')
 
         caps = DesiredCapabilities().CHROME
-        caps["pageLoadStrategy"] = "eager"
 
         driver = webdriver.Chrome(desired_capabilities=caps, options=options)
 
