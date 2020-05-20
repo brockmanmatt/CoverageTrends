@@ -18,7 +18,6 @@ def scrape(driver):
 	print("driver getting url")
 	time.sleep(5)
 	page = driver.page_source
-	print(page)
 	soup = BeautifulSoup(page, 'html.parser')
 
 	for link in soup.find_all("article"):
