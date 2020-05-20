@@ -2,11 +2,6 @@ from bs4 import BeautifulSoup
 import sys, requests, time
 
 def notBadURL(url):
-	if url.startswith("/vi"):
-		return False
-
-	if url.startswith("/videos"):
-		return False
 
 	if not url.startswith("/"):
 		return False
@@ -29,7 +24,7 @@ def scrape():
 			urls = urls[1:]
 
 			for url in urls:
-			    myURL = url[1:url.find(".html")+5]
+			    myURL = url[1:url.find('","')+1]
 
 			    if not notBadURL(myURL):
 			        continue
