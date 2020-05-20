@@ -10,7 +10,7 @@ options.add_argument('--no-sandbox')
 driver = webdriver.Chrome(options=options)
 
 # Scraping steps
-driver.get("cnn.com")
+driver.get("http://cnn.com")
 time.sleep(3)
 print('Finished!')
 driver.quit()
