@@ -1,5 +1,5 @@
 # CoverageTrends
-This archives headlines and links on news websites every four hours. Working on getting it down to less time using less space, but wanted to start archiving sooner than later.
+This archives headlines and links on news websites every hour. Working on getting it down to less time using less space, but wanted to start archiving sooner than later.
 
 # main.py
 Sets timers to run every 1 hours
