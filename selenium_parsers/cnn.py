@@ -12,8 +12,6 @@ def notBadURL(url):
 k, cnn's officially wierd
 """
 def scrape(driver):
-
-	print("I got called!")
 	results = {}
 	url = "http://www.cnn.com/"
 	driver.get(url)
