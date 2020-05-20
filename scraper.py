@@ -21,6 +21,9 @@ def run(verbose=False, path="archived_links", checkSelenium=False):
         #try pulling all the ones that requests.get works with
         for _, row in sources.T.iteritems():
             if "{}.py".format(row["Parser"]) in os.listdir("parsers"):
+                if verbose:
+                    print("Normal: {}".format(row["Parser"]))
+
                 try:
                     module = "parsers." + row["Parser"]
                     module = importlib.import_module(module)
@@ -57,6 +60,8 @@ def run(verbose=False, path="archived_links", checkSelenium=False):
 
         for _, row in sources.T.iteritems():
             if "{}.py".format(row["Parser"]) in os.listdir("selenium_parsers"):
+                if verbose:
+                    print("Selenium: {}".format(row["Parser"]))
                 try:
                     module = "selenium_parsers." + row["Parser"]
                     module = importlib.import_module(module)
