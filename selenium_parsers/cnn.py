@@ -13,9 +13,11 @@ k, cnn's officially wierd
 """
 def scrape(driver):
 
+	print("I got called!")
 	results = {}
 	url = "http://www.cnn.com/"
 	driver.get(url)
+	print("driver getting url")
 	time.sleep(5)
 	page = driver.page_source
 	print(page)
