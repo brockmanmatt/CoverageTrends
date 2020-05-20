@@ -1,8 +1,8 @@
 # CoverageTrends
-This archives headlines and links on news websites every hour. Working on getting it down to less time using less space, but wanted to start archiving sooner than later.
+This archives headlines and links on news websites every 30 minutes. Working on getting it down to less time using less space, but wanted to start archiving sooner than later.
 
 # main.py
-Sets timers to run every 1 hours
+Sets timers to run every 30 minutes
 
 # scraper.py
 uses each parser in parsers to scrape each news site and add to the daily csv for each news source.
@@ -21,11 +21,17 @@ contains a folder for each news site, where within each folder there's a .csv fo
 # Major Changes:
 20200519 - switched to hourly instead of every 4 hours
 
+20200520 - switched to 30 minutes instead of every hour
+
+
 # Minor Additions
 
 20200518 - started :-
 
 20200519 - adding more sites
+
+20200519 - adding metadata about location on site
+
 
 # TODO
 
