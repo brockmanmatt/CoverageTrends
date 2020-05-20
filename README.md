@@ -18,6 +18,10 @@ contains a folder for each news site, where within each folder there's a .csv fo
 
 # Minor Additions
 
+20200518 - started :-
+
+20200519 - adding more sites
+
 # TODO
 
 _TODO_ Multiple User Agents/IP addresses
