@@ -35,6 +35,9 @@ _TODO_ Selenium for sites that don't have it
 
 _TODO_ Followup: Can I install selenium easily with reqs.txt
 
+# oh, GDELT apparently already does this hourly on a larger scale. I'll go mess with their data.
+https://blog.gdeltproject.org/announcing-gdelt-global-frontpage-graph-gfg/
+
 
 ## Questions?
 mattbrockman(at)gmail(dat)com
