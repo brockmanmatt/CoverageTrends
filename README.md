@@ -41,8 +41,13 @@ _TODO_ Selenium for sites that don't have it
 
 _TODO_ Followup: Can I install selenium easily with reqs.txt
 
-# oh, GDELT apparently already does this hourly on a larger scale. I'll go mess with their data.
+## oh, GDELT apparently already does this hourly on a larger scale.
+
+So they have everything and list where on page link appears (well, where in HTML)
+
 https://blog.gdeltproject.org/announcing-gdelt-global-frontpage-graph-gfg/
+
+They're missing stuff like CNN and don't make it easy to find what's prominent which are likely important.
 
 
 ## Questions?
