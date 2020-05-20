@@ -6,7 +6,9 @@ import os
 from datetime import timezone
 
 def run(verbose=False, path="archived_links", checkSelenium=False):
-    myTime = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d-%H00')
+    myTime = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d-%H%M')
+    myTime[-1]="0"
+
     myDate = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d')
     myMonth = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m')
 
