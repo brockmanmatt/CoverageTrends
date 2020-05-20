@@ -18,5 +18,10 @@ contains a folder for each news site, where within each folder there's a .csv fo
 
 # Minor Additions
 
+#TODO
+_TODO_ Multiple User Agents/IP addresses
+_TODO_ Selenium for sites that don't have it
+_TODO_ Followup: Can I install selenium easily with reqs.txt
+
 ## Questions?
 mattbrockman(at)gmail(dat)com
