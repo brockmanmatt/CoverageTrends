@@ -15,7 +15,7 @@ def run(verbose=False, path="archived_links", checkSelenium=False):
     os.listdir()
 
     if verbose:
-        print("checking rows")
+        print("checking")
 
     if not checkSelenium:
         #try pulling all the ones that requests.get works with
@@ -46,6 +46,10 @@ def run(verbose=False, path="archived_links", checkSelenium=False):
     try:
         from selenium import webdriver
         from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+
+        if verbose:
+            print("checking options")
+
 
         options = webdriver.ChromeOptions()
         options.add_argument('headless')
@@ -80,11 +84,14 @@ def run(verbose=False, path="archived_links", checkSelenium=False):
                     pass
 
         driver.quit()
-    except:
+    except Exception as e:
         try:
             driver.quit()
         except:
             pass
+        if verbose:
+            print(e)
+
         pass
 
 
