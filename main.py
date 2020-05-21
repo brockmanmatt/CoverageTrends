@@ -27,22 +27,32 @@ def git_push(message='auto-update'):
     except:
         print('Some error occured while pushing the code')
 
-twitter_process = ""
-def reset_twitter_filter():
+"""
+I think I need this to be a class so that I can restart the twitter scraper daily
+It can run forever without changing it but I want to be able to push updates via git
+So any push will take effect the next day at 00:00 UTC
+"""
+class twitter_holder:
+    def __init__(self):
+        print("starting twitter scraper")
+        self.twitter_process = multiprocessing.Process(target=twitter_filter.run)
 
-    try:
-        twitter_process.terminate()
-    except:
-        pass
+    def reset_twitter_filter(self):
+        try:
+            self.twitter_process.terminate()
+        except:
+            print("messed up the twitter process; check for zombies")
+            pass
 
-    importlib.reload(twitter_filter)
-    twitter_process = multiprocessing.Process(target=twitter_filter.run)
-    twitter_process.start()
+        importlib.reload(twitter_filter)
+        self.twitter_process = multiprocessing.Process(target=twitter_filter.run)
+        self.twitter_process.start()
 
 os.makedirs("archived_links", exist_ok=True)
 
-reset_twitter_filter()
-schedule.every().day.at("00:00").do(reset_twitter_filter)
+myTwitterScraper = twitter_holder()
+
+schedule.every().day.at("00:00").do(myTwitterScraper.reset_twitter_filter)
 
 schedule.every().day.at("00:00").do(cycle)
 schedule.every().day.at("01:00").do(cycle)
