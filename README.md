@@ -65,8 +65,7 @@ So they have everything and list where on page link appears (well, where in HTML
 
 https://blog.gdeltproject.org/announcing-gdelt-global-frontpage-graph-gfg/
 
-They're missing stuff like CNN and don't make it easy to find what's prominent which are likely important.
-
+They pull quite a bit of data, might be able to just use that if I figure out what the relative position on page means, but for now playing with this to see if it's easier to manually label the sections on these publications.
 
 ## Questions?
 mattbrockman(at)gmail(dat)com
