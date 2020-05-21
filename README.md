@@ -30,6 +30,10 @@ scrapes twitter, requires a twitter API with the keys in "twitter_keys.json" as 
 # archived links
 contains a folder for each news site, where within each folder there's a .csv for each day with the headlines and urls on the home page at each scrape. Time is normalized to UTC time.
 
+# archived tweets
+contains a folder by month for each publisher, where each month has a .csv for each day with all tweets for the publisher. Original tweets can be found at twitter.com/[name]/status/[tweetid]
+
+
 # Major Changes:
 20200519 - switched to hourly instead of every 4 hours
 
