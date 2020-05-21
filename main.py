@@ -33,20 +33,29 @@ It can run forever without changing it but I want to be able to push updates via
 So any push will take effect the next day at 00:00 UTC
 """
 class twitter_holder:
+
+    processes = []
     def __init__(self):
         print("starting twitter scraper")
-        self.twitter_process = multiprocessing.Process(target=twitter_filter.run)
+        self.processes.append(multiprocessing.Process(target=twitter_filter.run))
+        for process in self.processes:
+            process.start()
+        print("started")
 
     def reset_twitter_filter(self):
         try:
-            self.twitter_process.terminate()
+            for process in self.processes:
+                process.terminate()
+            self.processes = []
         except:
             print("messed up the twitter process; check for zombies")
             pass
 
         importlib.reload(twitter_filter)
-        self.twitter_process = multiprocessing.Process(target=twitter_filter.run)
-        self.twitter_process.start()
+        self.processes.append(multiprocessing.Process(target=twitter_filter.run))
+        for process in self.processes:
+            process.start()
+
 
 os.makedirs("archived_links", exist_ok=True)
 
