@@ -36,7 +36,7 @@ def reset_twitter_filter():
         pass
 
     importlib.reload(twitter_filter)
-    twitter_process = multiprocessing.Process(targe=twitter_filter.run)
+    twitter_process = multiprocessing.Process(target=twitter_filter.run)
     twitter_process.start()
 
 os.makedirs("archived_links", exist_ok=True)
