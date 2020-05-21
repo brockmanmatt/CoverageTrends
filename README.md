@@ -23,6 +23,8 @@ contains a folder for each news site, where within each folder there's a .csv fo
 
 20200520 - switched to 30 minutes instead of every hour
 
+20200520 - Added twitter feeds
+
 
 # Minor Additions
 
