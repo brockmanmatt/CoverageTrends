@@ -4,3 +4,4 @@ GitPython
 schedule
 xlrd
 requests
+tweepy

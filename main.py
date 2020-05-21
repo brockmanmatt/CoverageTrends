@@ -1,6 +1,6 @@
 import git, schedule, time, importlib, scraper, os
 from git import Repo
-
+import twitter_filter, multiprocessing
 
 def updateRepo():
     git.cmd.Git(".").pull()
@@ -16,6 +16,10 @@ def git_push(message='auto-update'):
     try:
         repo = Repo("./.git")
         repo.git.add("archived_links")
+        try:
+            repo.git.add("archived_tweets")
+        except:
+            pass
         repo.index.commit(message)
         origin = repo.remote(name='origin')
         origin.push()
@@ -23,7 +27,22 @@ def git_push(message='auto-update'):
     except:
         print('Some error occured while pushing the code')
 
+twitter_process = ""
+def reset_twitter_filter():
+
+    try:
+        twitter_process.terminate()
+    except:
+        pass
+
+    importlib.reload(twitter_filter)
+    twitter_process = multiprocessing.Process(targe=twitter_filter.run)
+    twitter_process.start()
+
 os.makedirs("archived_links", exist_ok=True)
+
+reset_twitter_filter()
+schedule.every().day.at("00:00").do(reset_twitter_filter)
 
 schedule.every().day.at("00:00").do(cycle)
 schedule.every().day.at("01:00").do(cycle)
