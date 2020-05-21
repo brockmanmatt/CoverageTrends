@@ -74,12 +74,13 @@ def saveToCSV(status, name):
     os.makedirs("{}/{}/{}/".format(savePath, name, myMonth), exist_ok=True)
 
     text, url = getText(status)
-    print("text: {}".format(text))
-    print("url: {}".format(url))
+    #print("text: {}".format(text))
+    #print("url: {}".format(url))
 
     myID = status["id"]
+    tweetTime = status["created_at"]
 
-    tmp = pd.DataFrame([{"name":name, "text":text, "id": myID, "url":url}])
+    tmp = pd.DataFrame([{"name":name, "text":text, "id": myID, "url":url, "created_at":tweetTime}])
 
     if not os.path.isfile("{}/{}/{}/{}_{}.csv".format(savePath, name, myMonth,name, myDate)):
         tmp.to_csv("{}/{}/{}/{}_{}.csv".format(savePath, name, myMonth,name, myDate))
