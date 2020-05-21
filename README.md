@@ -57,7 +57,10 @@ _TODO_ Multiple User Agents/IP addresses
 
 _TODO_ Selenium for sites that don't have it
 
-_TODO_ Followup: Can I install selenium easily with reqs.txt
+_TODO_ Followup: Can I install selenium easily with reqs.txt (I think the answer is no)
+
+_TODO_ Figure out how to hook this into a github website with JS
+
 
 ## oh, GDELT apparently already does this hourly on a larger scale.
 
