@@ -15,6 +15,18 @@ contains a parser for each news site which visits the home page and scrapes the 
 # selenium_parsers
 parsers that use selenium; see https://selenium-python.readthedocs.io/getting-started.html#simple-usage for installation instructions. It depends on OS. Really, just Google how to install selenium and chrome driver on your OS and go off stack exhcange.
 
+# twitter_filter.py
+scrapes twitter, requires a twitter API with the keys in "twitter_keys.json" as a dict with the following properties:
+```
+{
+  "CONSUMER_KEY":"[KEY]",
+  "CONSUMER_SECRET":"[KEY]",
+  "ACCESS_TOKEN":"[KEY]",
+  "ACCESS_TOKEN_SECRET":"[KEY]"
+}
+
+```
+
 # archived links
 contains a folder for each news site, where within each folder there's a .csv for each day with the headlines and urls on the home page at each scrape. Time is normalized to UTC time.
 
