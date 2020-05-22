@@ -189,10 +189,10 @@ class wordCruncher:
         myTime +="0"
 
 
-        for middleWord in vcs.where(vcs==3).dropna().index: #k, this is going to be wayyy too many images, but just testing
+        for middleWord in vcs.where((vcs==2)|(vcs==3)).dropna().index: #k, this is going to be wayyy too many images, but just testing
             tmp = self.bigdf[self.bigdf["quickReplace"].apply(lambda x: x.find(middleWord) > -1)].copy()
             tmp.date = pd.to_datetime(tmp.date)
             tmp = tmp.groupby(["source", "date"]).count()["quickReplace"]
-            ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentiosn of {}".format(middleWord), figsize=(8,8))
+            ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentions of {}".format(middleWord), figsize=(8,8))
             ax.set_ylabel("frontpage mentions at time")
             ax.figure.savefig("img/{}_{}.jpg".format(myTime, middleWord))
