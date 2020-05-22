@@ -2,7 +2,7 @@ import pandas as pd
 from bs4 import BeautifulSoup as bs
 import time, datetime, importlib
 import os
-
+import timeSeriesConvert
 from datetime import timezone
 
 def run(verbose=False, path="archived_links", checkSelenium=False):
@@ -93,10 +93,13 @@ def run(verbose=False, path="archived_links", checkSelenium=False):
             pass
         if verbose:
             print(e)
-
         pass
 
-
-
+    try:
+        test = timeSeriesConvert.wordCruncher()
+        test.runCurrentDefault()
+    except:
+        pass
+        
 if __name__ == '__main__':
     run(verbose=True)
