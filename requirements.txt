@@ -5,3 +5,5 @@ schedule
 xlrd
 requests
 tweepy
+scikit-learn
+nltk
