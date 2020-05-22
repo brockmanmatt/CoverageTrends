@@ -6,7 +6,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction import text
-
+import datetime
+from datetime import timezone
 """
 
 still building this, not entirely sure where I'm going with it;
@@ -36,7 +37,7 @@ class wordCruncher:
         self.ready = False
         self.vectorizer = None
         self.sources = {}
-        self.extra_stopwords = ["news", "say", "said", "told", "tell", "day", "video", "week", ""]
+        self.extra_stopwords = ["news", "say", "said", "told", "tell", "day", "video", "week", "state"]
 
 
     def loadArticles(self, pubList=[], dateStart = -1, dateEnd = -1):
@@ -49,8 +50,8 @@ class wordCruncher:
         for pub in getPubs:
             if pub not in self.allPubs:
                 print("No folder found for {}".format(pub))
-
-            self.articles[pub] = self.loadPubArticles(pub, dateStart, dateEnd)
+            else:
+                self.articles[pub] = self.loadPubArticles(pub, dateStart, dateEnd)
 
     def loadPubArticles(self, publisher, dateStart=-1, dateEnd=-1):
         """ Loads articles from dateStart to dateEnd into articles as a dataframe in a dict"""
@@ -161,3 +162,37 @@ class wordCruncher:
             result[source] = [x[0] for x in score[:topN]]
 
         return result
+
+    def runCurrentDefault(self, verbose=False):
+        if verbose:
+            print("loading articles")
+        self.loadArticles(pubList = ["newyorktimes", "foxnews", "washingtonpost", "cnn", "breitbart"])
+
+        if verbose:
+            print("building bigdf")
+        self.buildBigDF()
+
+        if verbose:
+            print("getting sims")
+        self.getSimilarities(lastN = 5, vectorizestyle=TfidfVectorizer, ngramRange=(1,1))
+
+        if verbose:
+            print("getting topN")
+        topN = self.getTopNWords()
+
+        os.makedirs("img", exist_ok=True)
+
+        vcs = topN.melt(var_name='publisher', value_name='words')["words"].value_counts()
+
+        myTime = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d-%H%M')
+        myTime = myTime[:-1]
+        myTime +="0"
+
+
+        for middleWord in vcs.where(vcs==3).dropna().index: #k, this is going to be wayyy too many images, but just testing
+            tmp = self.bigdf[self.bigdf["quickReplace"].apply(lambda x: x.find(middleWord) > -1)].copy()
+            tmp.date = pd.to_datetime(tmp.date)
+            tmp = tmp.groupby(["source", "date"]).count()["quickReplace"]
+            ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentiosn of {}".format(middleWord), figsize=(12,12))
+            ax.set_ylabel("frontpage mentions at time")
+            ax.figure.savefig("img/{}_{}.jpg".format(myTime, middleWord))

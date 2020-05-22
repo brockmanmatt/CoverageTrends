@@ -20,6 +20,11 @@ def git_push(message='auto-update'):
             repo.git.add("archived_tweets")
         except:
             pass
+        try:
+            repo.git.add("img")
+        except:
+            pass
+
         repo.index.commit(message)
         origin = repo.remote(name='origin')
         origin.push()
@@ -58,6 +63,8 @@ class twitter_holder:
 
 
 os.makedirs("archived_links", exist_ok=True)
+os.makedirs("img", exist_ok=True)
+
 
 myTwitterScraper = twitter_holder()
 

@@ -7,3 +7,4 @@ requests
 tweepy
 scikit-learn
 nltk
+statsmodels
