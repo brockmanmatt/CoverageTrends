@@ -37,7 +37,7 @@ class wordCruncher:
         self.ready = False
         self.vectorizer = None
         self.sources = {}
-        self.extra_stopwords = ["news", "say", "said", "told", "tell", "day", "video", "week", "state"]
+        self.extra_stopwords = ["news", "say", "said", "told", "tell", "day", "video", "week", "state", "new"]
 
 
     def loadArticles(self, pubList=[], dateStart = -1, dateEnd = -1):
@@ -193,6 +193,6 @@ class wordCruncher:
             tmp = self.bigdf[self.bigdf["quickReplace"].apply(lambda x: x.find(middleWord) > -1)].copy()
             tmp.date = pd.to_datetime(tmp.date)
             tmp = tmp.groupby(["source", "date"]).count()["quickReplace"]
-            ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentiosn of {}".format(middleWord), figsize=(12,12))
+            ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentiosn of {}".format(middleWord), figsize=(8,8))
             ax.set_ylabel("frontpage mentions at time")
             ax.figure.savefig("img/{}_{}.jpg".format(myTime, middleWord))
