@@ -30,13 +30,30 @@ class webpageBuilder:
         header + '<meta charset="UTF-8">'
         #header + '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
         header + '<title>{}</title>'.format(self.title)
+
+        header + '<style>'
+        header + 'img {'
+        header + '  width: 70%;'
+        header + '}'
+        header + '</style>'
+
+
         header + '</head>'
 
         body = badCode()
         body + "<body>"
-        body + '<div id="start"></div>'.format(self.content)
-
+        body + "  <div class=\"item\" id=\"example-graphs\">"
+        body + "  <div id=\"dropdowns\"></div>"
+        body + "  <div id=\"imgBox\"></div>"
+        body + "</div>"
         body + '<script src="{}.js"></script>'.format(self.projectName)
+
+        body + '<script>'
+        body + 'setupDropdownBox()'
+        body + 'setupImgBox()'
+        body + '</script>'
+
+
         body + "</body>"
 
         footer = badCode()
@@ -49,17 +66,69 @@ class webpageBuilder:
 
         """ builds the javascript; hopefully github.io lets me do this """
         js = badCode()
-        js + 'document.getElementById("start").innerHTML = "<img src=img/test.jpg>"\n'
 
-        js + "const publishers = ["
-        js + ",".join(["'{}'".format(x) for x in os.listdir("archived_links")])
+        actual_files = os.listdir("img")
+
+        actual_options = [x.split("_") for x in actual_files if x.endswith(".jpg")]
+        option_times = set([x[0] for x in actual_options])
+        latest  = max(option_times)
+        latestTime = latest.split("-")[1]
+        newTimes = [oldTime for oldTime in option_times if oldTime.split("-")[1] == latestTime]
+
+        option_topics = set([x[1][:-4] for x in actual_options if (x[0]==latest)])
+        option_times = set(newTimes)
+
+        js + "var allowedFromDates = {}"
+        for myTime in option_times:
+            js + "allowedFromDates['{}'] = {}".format(myTime, [x.split("_")[1][:-4] for x in actual_files if x.startswith(myTime)])
+
+
+        js + "var allowedFromTopic = {}"
+        for myTopic in option_topics:
+            js + "allowedFromTopic['{}'] = {}".format(myTopic, [x.split("_")[0] for x in actual_files if x.endswith(myTopic+".jpg")])
+
+        js + "const dates = ["
+        js + ",".join(["'{}'".format(x) for x in option_times])
         js + "]"
 
-        js + 'function addCharts(){'
-        js + ""
-        js + '}'
+        js + "const topics = ["
+        js + ",".join(["'{}'".format(x) for x in option_topics])
+        js + "]"
 
-        js + "addCharts()"
+
+        js +   "function setupImgBox(){"
+        js +   "    var time = document.getElementById(\"timeButton\").value;"
+        js +   "    var issue=document.getElementById(\"issueButton\").value;"
+
+        js +   "    img_name = time + \"_\" + issue + \".jpg\";"
+
+        js +   "    var newHTML = '<img src = \"./img/';"
+        js +   "    newHTML += img_name;"
+        js +   "    newHTML += '\" width=90%>';"
+
+        js +   "    document.getElementById(\"imgBox\").innerHTML = newHTML;"
+        js +   "};"
+
+
+
+        js +   "function setupDropdownBox(){"
+        js +   "    newHTML = '<table id=\"SelectTable\">'"
+        js +   "    newHTML += '<caption><i>Select a Series</i></caption>'"
+
+        js +   "    newHTML += '<tr><th>Datetime</th><th>Issue</th><th></tr></tr>'"
+
+
+        js +   "    newHTML += '<tr><td><select id=\"timeButton\" onchange=\"setupImgBox()\">';"
+        js +   "    dates.forEach(time => newHTML+= '<option value='+time+'>'+time+'</option>');"
+        js +   "    newHTML+= '</select></td>';"
+
+        js +   "    newHTML += '<td><select id=\"issueButton\" onchange=\"setupImgBox()\">';"
+        js +   "    topics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');"
+        js +   "    newHTML += '</select></td></tr></table>';"
+
+        js +   "    document.getElementById(\"dropdowns\").innerHTML = newHTML;"
+
+        js +   "};"
 
         with open("{}.js".format(self.projectName), "w") as fh:
             fh.write(js.content)

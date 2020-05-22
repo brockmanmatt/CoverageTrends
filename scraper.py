@@ -5,6 +5,11 @@ import os
 import timeSeriesConvert
 from datetime import timezone
 
+try:
+    import buildWebPage
+except:
+    pass
+
 def run(verbose=False, path="archived_links", checkSelenium=False):
     myTime = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d-%H%M')
     myTime = myTime[:-1]
@@ -100,6 +105,12 @@ def run(verbose=False, path="archived_links", checkSelenium=False):
         test.runCurrentDefault()
     except:
         pass
-        
+
+    try:
+        test = buildWebPage.webpageBuilder()
+        test.buildWebpage()
+    except:
+        pass
+
 if __name__ == '__main__':
     run(verbose=True)
