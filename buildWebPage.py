@@ -7,23 +7,62 @@ I apologize for that in advance and to everyon who taught me CSS.
 
 class webpageBuilder:
     """ builds me a webpage """
+    """ in hindsight, I could just hard code a webpage instead of this but whatever """
+    """ wait, I'm making a python script to just make javascript asdf """
 
-    def __init__(self):
+    def __init__(self, projectName="index", title="PLACEHOLDER"):
         self.content = ""
+        self.projectName = projectName
+        self.title = title
 
-    def buildWebpage(self, outputURL):
+    def generate(self):
+        self.buildWebpage()
+        self.buildJavaScript()
+
+    def buildWebpage(self):
         """ builds the actual webpage """
-        scripts = ""
-        header = "<html><head>{}</head>".format(scripts) #I think some other stuff goes up there,
+        header = badCode()
+        header + '<html lang="en">'
+        header + '<head>'
+        header + '<meta charset="UTF-8">'
+        header + '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
+        header + '<title>{}</title>'.format(self.title)
+        header + '<\head>'
 
-        body = "{}".format(self.content)
+        body = badCode()
+        body + "<body>"
+        body + '<div id="start">'.format(self.content)
 
-        footer = "</html>"
+        body + '<script src="{}.js"></script>'.format(self.projectName)
+        body + "</body>"
 
-        finalPage = header + body + footer
+        footer = badCode()
+        footer + "</html>"
 
-        with open(outputURL, "w") as fh:
+        finalPage = header.content + body.content + footer.content
+
+        with open("{}.html".format(self.projectName), "w") as fh:
             fh.write(finalPage)
+
+        """ builds the javascript; hopefully github.io lets me do this """
+        js = badCode()
+        js + 'document.getElementById("start").innerHTML = "Did This Work?"\n'
+
+        with open("{}.js".format(self.projectName), "w") as fh:
+            fh.write(js.content)
+
 
     def addContent(self, content):
         self.content += (content)
+
+class badCode:
+    def __init__(self):
+        self.content = ""
+    def __add__(self, new):
+        self.content += new
+        self.content += '\n'
+
+        return self.content
+
+    def __repr__(self):
+        return self.content
