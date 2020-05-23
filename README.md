@@ -7,8 +7,6 @@ Sets timers to run every 30 minutes
 # scraper.py
 uses each parser in parsers to scrape each news site and add to the daily csv for each news source.
 
-CNN is surprisingly stubborn
-
 # parsers
 contains a parser for each news site which visits the home page and scrapes the linked headlines and urls.
 
