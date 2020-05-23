@@ -4,11 +4,8 @@ import time, datetime, importlib
 import os
 import timeSeriesConvert
 from datetime import timezone
+import buildWebPage
 
-try:
-    import buildWebPage
-except:
-    pass
 
 def run(verbose=False, path="archived_links", checkSelenium=False, onlyWebsite=False):
     myTime = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d-%H%M')

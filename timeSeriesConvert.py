@@ -180,8 +180,6 @@ class wordCruncher:
             print("getting topN")
         topN = self.getTopNWords()
 
-        os.makedirs("img", exist_ok=True)
-
         vcs = topN.melt(var_name='publisher', value_name='words')["words"].value_counts()
 
         myTime = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d-%H%M')
