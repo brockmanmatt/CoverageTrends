@@ -1,6 +1,8 @@
 import git, schedule, time, importlib, scraper, os
 from git import Repo
 import twitter_filter, multiprocessing
+import buildWebPage
+import timeSeriesConvert
 
 def updateRepo():
     git.cmd.Git(".").pull()
@@ -9,7 +11,28 @@ def updateRepo():
 def cycle():
     updateRepo()
     importlib.reload(scraper)
-    scraper.run()
+    importlib.reload(buildWebPage)
+    importlib.reload(timeSeriesConvert)
+
+    try:
+        scraper.run()
+    except:
+        print("error with scraper")
+        pass
+    try:
+        tsc = timeSeriesConvert.wordCruncher()
+        tsc.runCurrentDefault()
+    except:
+        print("error making images")
+        pass
+
+    try:
+        wp = buildWebPage.webpageBuilder()
+        wp.buildWebpage()
+    except:
+        print("error building webpage")
+        pass
+
     git_push()
 
 def git_push(message='auto-update'):

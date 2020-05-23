@@ -2,9 +2,7 @@ import pandas as pd
 from bs4 import BeautifulSoup as bs
 import time, datetime, importlib
 import os
-import timeSeriesConvert
 from datetime import timezone
-import buildWebPage
 
 
 def run(verbose=False, path="archived_links", checkSelenium=False, onlyWebsite=False):
@@ -87,8 +85,8 @@ def run(verbose=False, path="archived_links", checkSelenium=False, onlyWebsite=F
                         if verbose:
                             print(e)
                         pass
-
             driver.quit()
+
         except Exception as e:
             try:
                 driver.quit()
@@ -97,20 +95,6 @@ def run(verbose=False, path="archived_links", checkSelenium=False, onlyWebsite=F
             if verbose:
                 print(e)
             pass
-
-    try:
-        test = timeSeriesConvert.wordCruncher()
-        test.runCurrentDefault()
-    except:
-        print("error making images")
-        pass
-
-    try:
-        test = buildWebPage.webpageBuilder()
-        test.buildWebpage()
-    except:
-        print("error building webpage")
-        pass
 
 if __name__ == '__main__':
     run(verbose=True)
