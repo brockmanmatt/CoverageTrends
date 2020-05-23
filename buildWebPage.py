@@ -66,39 +66,26 @@ class webpageBuilder:
 
         actual_files = os.listdir("docs/img")
 
-        actual_options = [x.split("_") for x in actual_files if x.endswith(".jpg")]
-        option_times = set([x[0] for x in actual_options])
-        latest  = max(option_times)
-        latestTime = latest.split("-")[1]
-        newTimes = [oldTime for oldTime in option_times if oldTime.split("-")[1] == latestTime]
-
-        option_topics = set([x[1][:-4] for x in actual_options if (x[0]==latest)])
-        option_times = set(newTimes)
-
-        js + "var allowedFromDates = {}"
-        for myTime in option_times:
-            js + "allowedFromDates['{}'] = {}".format(myTime, [x.split("_")[1][:-4] for x in actual_files if x.startswith(myTime)])
-
-        js + "var allowedFromTopic = {}"
-        for myTopic in option_topics:
-            js + "allowedFromTopic['{}'] = {}".format(myTopic, [x.split("_")[0] for x in actual_files if x.endswith(myTopic+".jpg")])
-
-        js + "const dates = ["
-        js + ",".join(["'{}'".format(x) for x in option_times])
-        js + "]"
+        actual_files = os.listdir("docs/img")
+        actual_options = [x[:-4].split("_") for x in actual_files if x.endswith(".jpg")]
+        actual_options = sorted(actual_options, reverse=True)
+        formated_options = ["{}_{}".format(x[1], x[0]) for x in actual_options]
 
         js + "const topics = ["
-        js + ",".join(["'{}'".format(x) for x in option_topics])
+        js + ",".join(["'{}'".format(x) for x in formated_options])
         js + "]"
 
 
         """ setupImageBox sets up the actual graph"""
 
         js +   "function setupImgBox(){"
-        js +   "    var time = document.getElementById(\"timeButton\").value;"
-        js +   "    var issue=document.getElementById(\"issueButton\").value;"
+        js +   "    var myToken=document.getElementById(\"issueButton\").value;"
 
-        js +   "    img_name = time + \"_\" + issue + \".jpg\";"
+        js +   "    var myIssue = myToken.split('_')"
+        js +   "    console.log(myIssue)"
+        js +   "    issue = myIssue[1] + '_' + myIssue[0]"
+
+        js +   "    img_name = issue + \".jpg\";"
 
         js +   "    var newHTML = '<img src = \"./img/';"
         js +   "    newHTML += img_name;"
@@ -118,12 +105,7 @@ class webpageBuilder:
         js +   "    newHTML = '<table id=\"SelectTable\">'"
         js +   "    newHTML += '<caption><i>Select a Series</i></caption>'"
 
-        js +   "    newHTML += '<tr><th>Datetime</th><th>Issue</th><th></tr></tr>'"
-
-
-        js +   "    newHTML += '<tr><td><select id=\"timeButton\" onchange=\"setupImgBox()\">';"
-        js +   "    dates.forEach(time => newHTML+= '<option value='+time+'>'+time+'</option>');"
-        js +   "    newHTML+= '</select></td>';"
+        js +   "    newHTML += '<tr><th>Issue (last updated)</th></tr>'"
 
         js +   "    newHTML += '<td><select id=\"issueButton\" onchange=\"setupImgBox()\">';"
         js +   "    topics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');"
