@@ -14,13 +14,10 @@ class webpageBuilder:
     """ I'm fairly certain I don't actually want to automatically generate this thing """
 
     def __init__(self, projectName="index", title="PLACEHOLDER"):
+        """ builds a website with some javascript at projectName.html, projectNAme.js and PLACEHOLDER title """
         self.content = ""
         self.projectName = projectName
         self.title = title
-
-    def generate(self):
-        self.buildWebpage()
-        self.buildJavaScript()
 
     def buildWebpage(self):
         """ builds the actual webpage """
@@ -82,7 +79,6 @@ class webpageBuilder:
         for myTime in option_times:
             js + "allowedFromDates['{}'] = {}".format(myTime, [x.split("_")[1][:-4] for x in actual_files if x.startswith(myTime)])
 
-
         js + "var allowedFromTopic = {}"
         for myTopic in option_topics:
             js + "allowedFromTopic['{}'] = {}".format(myTopic, [x.split("_")[0] for x in actual_files if x.endswith(myTopic+".jpg")])
@@ -95,6 +91,8 @@ class webpageBuilder:
         js + ",".join(["'{}'".format(x) for x in option_topics])
         js + "]"
 
+
+        """ setupImageBox sets up the actual graph"""
 
         js +   "function setupImgBox(){"
         js +   "    var time = document.getElementById(\"timeButton\").value;"
@@ -109,7 +107,12 @@ class webpageBuilder:
         js +   "    document.getElementById(\"imgBox\").innerHTML = newHTML;"
         js +   "};"
 
+        """ setupDropDownBox sets up the time and issue select buttons """
+        """ time should give the option of aggregating everything from wihin the last 24 hours"""
+        """Then maaybe one for last week, last month"""
 
+        """ the problem is, each of those dropdown will have more and more content"""
+        """can skin that cat later"""
 
         js +   "function setupDropdownBox(){"
         js +   "    newHTML = '<table id=\"SelectTable\">'"
@@ -134,18 +137,18 @@ class webpageBuilder:
             fh.write(js.content)
 
 
-    def addContent(self, content):
-        self.content += (content)
-
 class badCode:
     """ bad way of adding new lines to html im generating; there's probably a library I should use somewhere """
     def __init__(self):
+        """ has a blank string """
         self.content = ""
     def __add__(self, new):
+        """ adding new content to it sticks a new line at the end """
         self.content += new
         self.content += '\n'
 
         return self.content
 
     def __repr__(self): #I need to override something else, just gonna call content
+        """ This doesn't do what I think it does so I don't use it"""
         return self.content

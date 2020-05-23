@@ -194,7 +194,9 @@ class wordCruncher:
             ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentions of {}".format(middleWord), figsize=(8,8))
             ax.set_ylabel("frontpage mentions at time")
             try:
-                [os.remove("docs/img/{}".format(oldFile) for oldFile in os.listdir("docs/img") if oldFile.endswith(middleWord+".jpg"))]
+                deleteMe = [oldFile for oldFile in os.listdir("docs/img") if oldFile.endswith(middleWord+".jpg")]
+                for oldFile in deleteMe:
+                    os.remove("docs/img/{}".format(oldFile))
             except:
                 pass
 
