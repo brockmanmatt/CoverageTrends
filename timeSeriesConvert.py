@@ -8,6 +8,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction import text
 import datetime
 from datetime import timezone
+import matplotlib.pyplot as plt
 """
 
 still building this, not entirely sure where I'm going with it;
@@ -185,7 +186,7 @@ class wordCruncher:
         myTime = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d-%H%M')
         myTime = myTime[:-1]
         myTime +="0"
-
+        plt.close('all') #in case of zombies or something
         os.makedirs("docs/img", exist_ok=True)
         for middleWord in vcs.where((vcs==2)|(vcs==3)).dropna().index: #k, this is going to be wayyy too many images, but just testing
             tmp = self.bigdf[self.bigdf["quickReplace"].apply(lambda x: x.find(middleWord) > -1)].copy()
@@ -201,3 +202,4 @@ class wordCruncher:
                 pass
 
             ax.figure.savefig("docs/img/{}_{}.jpg".format(myTime, middleWord))
+            plt.close('all') #close all figures
