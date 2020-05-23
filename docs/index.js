@@ -1,5 +1,5 @@
 const topics = [
-'reopen_20200523-1000','china_20200523-1000','biden_20200523-1000','pandem_20200523-0830','black_20200523-0830','open_20200523-0330','open_20200523-0300','open_20200523-0230','case_20200523-0000','coronavirus_20200522-2100'
+'trump_20200523-1030','reopen_20200523-1030','coronavirus_20200523-1030','china_20200523-1030','biden_20200523-1000','pandem_20200523-0830','black_20200523-0830','open_20200523-0330','open_20200523-0300','open_20200523-0230','case_20200523-0000'
 ]
 function setupImgBox(){
     var myToken=document.getElementById("issueButton").value;
