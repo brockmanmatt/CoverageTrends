@@ -67,7 +67,7 @@ class webpageBuilder:
         """ builds the javascript; hopefully github.io lets me do this """
         js = badCode()
 
-        actual_files = os.listdir("img")
+        actual_files = os.listdir("docs/img")
 
         actual_options = [x.split("_") for x in actual_files if x.endswith(".jpg")]
         option_times = set([x[0] for x in actual_options])
