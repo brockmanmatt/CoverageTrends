@@ -1,17 +1,16 @@
 var allowedFromDates = {}
-allowedFromDates['20200523-0000'] = ['china', 'case', 'biden', 'black', 'pandem', 'reopen']
+allowedFromDates['20200523-0030'] = ['black', 'pandem', 'biden', 'china', 'reopen']
 var allowedFromTopic = {}
-allowedFromTopic['pandem'] = ['20200523-0000']
-allowedFromTopic['biden'] = ['20200522-2140', '20200522-2200', '20200522-2230', '20200522-2300', '20200523-0000']
-allowedFromTopic['china'] = ['20200523-0000']
-allowedFromTopic['case'] = ['20200523-0000']
-allowedFromTopic['black'] = ['20200523-0000']
-allowedFromTopic['reopen'] = ['20200523-0000']
+allowedFromTopic['black'] = ['20200523-0000', '20200523-0030']
+allowedFromTopic['pandem'] = ['20200523-0000', '20200523-0030']
+allowedFromTopic['china'] = ['20200523-0000', '20200523-0030']
+allowedFromTopic['biden'] = ['20200522-2100', '20200522-2140', '20200522-2200', '20200522-2230', '20200522-2300', '20200523-0000', '20200523-0030']
+allowedFromTopic['reopen'] = ['20200523-0000', '20200523-0030']
 const dates = [
-'20200523-0000'
+'20200523-0030'
 ]
 const topics = [
-'pandem','biden','china','case','black','reopen'
+'black','pandem','china','biden','reopen'
 ]
 function setupImgBox(){
     var time = document.getElementById("timeButton").value;
