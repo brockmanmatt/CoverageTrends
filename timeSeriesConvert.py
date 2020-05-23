@@ -188,7 +188,7 @@ class wordCruncher:
         myTime = myTime[:-1]
         myTime +="0"
 
-        os.makedir("docs/img", exist_ok=True)
+        os.makedirs("docs/img", exist_ok=True)
         for middleWord in vcs.where((vcs==2)|(vcs==3)).dropna().index: #k, this is going to be wayyy too many images, but just testing
             tmp = self.bigdf[self.bigdf["quickReplace"].apply(lambda x: x.find(middleWord) > -1)].copy()
             tmp.date = pd.to_datetime(tmp.date)
