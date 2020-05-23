@@ -1,21 +1,12 @@
-var allowedFromDates = {}
-allowedFromDates['20200523-0400'] = ['black', 'pandem', 'china', 'reopen', 'biden']
-var allowedFromTopic = {}
-allowedFromTopic['china'] = ['20200523-0000', '20200523-0030', '20200523-0110', '20200523-0130', '20200523-0200', '20200523-0230', '20200523-0300', '20200523-0330', '20200523-0400']
-allowedFromTopic['reopen'] = ['20200523-0000', '20200523-0030', '20200523-0110', '20200523-0130', '20200523-0200', '20200523-0230', '20200523-0300', '20200523-0330', '20200523-0400']
-allowedFromTopic['black'] = ['20200523-0000', '20200523-0030', '20200523-0110', '20200523-0130', '20200523-0200', '20200523-0230', '20200523-0300', '20200523-0330', '20200523-0400']
-allowedFromTopic['biden'] = ['20200522-2100', '20200522-2140', '20200522-2200', '20200522-2230', '20200522-2300', '20200523-0000', '20200523-0030', '20200523-0110', '20200523-0130', '20200523-0200', '20200523-0230', '20200523-0300', '20200523-0330', '20200523-0400']
-allowedFromTopic['pandem'] = ['20200523-0000', '20200523-0030', '20200523-0110', '20200523-0130', '20200523-0200', '20200523-0230', '20200523-0300', '20200523-0330', '20200523-0400']
-const dates = [
-'20200523-0400'
-]
 const topics = [
-'china','reopen','black','biden','pandem'
+'reopen_20200523-0440','pandem_20200523-0440','china_20200523-0440','black_20200523-0440','biden_20200523-0440','open_20200523-0330','open_20200523-0300','open_20200523-0230','case_20200523-0000','coronavirus_20200522-2100'
 ]
 function setupImgBox(){
-    var time = document.getElementById("timeButton").value;
-    var issue=document.getElementById("issueButton").value;
-    img_name = time + "_" + issue + ".jpg";
+    var myToken=document.getElementById("issueButton").value;
+    var myIssue = myToken.split('_')
+    console.log(myIssue)
+    issue = myIssue[1] + '_' + myIssue[0]
+    img_name = issue + ".jpg";
     var newHTML = '<img src = "./img/';
     newHTML += img_name;
     newHTML += '" width=90%>';
@@ -24,10 +15,7 @@ function setupImgBox(){
 function setupDropdownBox(){
     newHTML = '<table id="SelectTable">'
     newHTML += '<caption><i>Select a Series</i></caption>'
-    newHTML += '<tr><th>Datetime</th><th>Issue</th><th></tr></tr>'
-    newHTML += '<tr><td><select id="timeButton" onchange="setupImgBox()">';
-    dates.forEach(time => newHTML+= '<option value='+time+'>'+time+'</option>');
-    newHTML+= '</select></td>';
+    newHTML += '<tr><th>Issue (last updated)</th></tr>'
     newHTML += '<td><select id="issueButton" onchange="setupImgBox()">';
     topics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');
     newHTML += '</select></td></tr></table>';
