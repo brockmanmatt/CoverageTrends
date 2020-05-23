@@ -193,4 +193,9 @@ class wordCruncher:
             tmp = tmp.groupby(["source", "date"]).count()["quickReplace"]
             ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentions of {}".format(middleWord), figsize=(8,8))
             ax.set_ylabel("frontpage mentions at time")
+            try:
+                [os.remove("docs/img/{}".format(oldFile) for oldFile in os.listdir("docs/img") if oldFile.endswith(middleWord+".jpg"))]
+            except:
+                pass
+
             ax.figure.savefig("docs/img/{}_{}.jpg".format(myTime, middleWord))
