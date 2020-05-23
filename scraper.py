@@ -104,12 +104,14 @@ def run(verbose=False, path="archived_links", checkSelenium=False):
         test = timeSeriesConvert.wordCruncher()
         test.runCurrentDefault()
     except:
+        print("error making images")
         pass
 
     try:
         test = buildWebPage.webpageBuilder()
         test.buildWebpage()
     except:
+        print("error building webpage")
         pass
 
 if __name__ == '__main__':

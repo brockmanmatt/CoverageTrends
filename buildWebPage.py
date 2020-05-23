@@ -61,7 +61,7 @@ class webpageBuilder:
 
         finalPage = header.content + body.content + footer.content
 
-        with open("{}.html".format(self.projectName), "w") as fh:
+        with open("docs/{}.html".format(self.projectName), "w") as fh:
             fh.write(finalPage)
 
         """ builds the javascript; hopefully github.io lets me do this """
@@ -130,7 +130,7 @@ class webpageBuilder:
 
         js +   "};"
 
-        with open("{}.js".format(self.projectName), "w") as fh:
+        with open("docs/{}.js".format(self.projectName), "w") as fh:
             fh.write(js.content)
 
 
