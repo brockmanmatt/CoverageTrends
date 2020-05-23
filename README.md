@@ -60,13 +60,15 @@ _TODO_ Followup: Can I install selenium easily with reqs.txt (I think the answer
 _TODO_ Figure out how to hook this into a github website with JS
 
 
-## oh, GDELT apparently already does this hourly on a larger scale.
+## Projects other people have with possibly better functionality-
 
-So they have everything and list where on page link appears (well, where in HTML)
-
+-GDELT pulls by site each hour with where on page link appears (well, where in HTML)
 https://blog.gdeltproject.org/announcing-gdelt-global-frontpage-graph-gfg/
 
 They pull quite a bit of data, might be able to just use that if I figure out what the relative position on page means, but for now playing with this to see if it's easier to manually label the sections on these publications.
+
+-https://github.com/kotartemiy/newscatcher/ is a cool scraper that pulls the RSS feeds of newspapers.
+
 
 ## Questions?
 mattbrockman(at)gmail(dat)com
