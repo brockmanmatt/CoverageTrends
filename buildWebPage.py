@@ -78,6 +78,10 @@ class webpageBuilder:
         js + ",".join(["'{}'".format(x[:-4]) for x in os.listdir("docs/models/VAR")])
         js + "]"
 
+        js + "const SARIMAXtopics = ["
+        js + ",".join(["'{}'".format(x[:-4]) for x in os.listdir("docs/models/SARIMAX")])
+        js + "]"
+
 
         """ setupImageBox sets up the actual graph"""
         js +   "function setupImgBox(){"
@@ -112,6 +116,22 @@ class webpageBuilder:
         js +   "    document.getElementById(\"imgBox\").innerHTML = newHTML;"
         js +   "};"
 
+        """ setupSARIMAXImageBox sets up VAR projections"""
+        js +   "function setupVARImgBox(){"
+        js +   "    var myToken=document.getElementById(\"SARIMAXButton\").value;"
+
+        js +   "    var myIssue = myToken"
+        js +   "    issue = myIssue"
+
+        js +   "    img_name = issue + \".jpg\";"
+
+        js +   "    var newHTML = '<img src = \"./models/SARIMAX/';"
+        js +   "    newHTML += img_name;"
+        js +   "    newHTML += '\" width=90%>';"
+
+        js +   "    document.getElementById(\"imgBox\").innerHTML = newHTML;"
+        js +   "};"
+
 
         """ setupDropDownBox sets up the time and issue select buttons """
         """ time should give the option of aggregating everything from wihin the last 24 hours"""
@@ -124,7 +144,7 @@ class webpageBuilder:
         js +   "    newHTML = '<table id=\"SelectTable\">'"
         js +   "    newHTML += '<caption><i>Select a Series</i></caption>'"
 
-        js +   "    newHTML += '<tr><th>Issue (last updated)</th><th>VAR Model</th></tr>'"
+        js +   "    newHTML += '<tr><th>Issue (last updated)</th><th>VAR Model</th></th><th>SARIMAX Model</th></tr>'"
 
         js +   "    newHTML += '<td><select id=\"issueButton\" onchange=\"setupImgBox()\">';"
         js +   "    topics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');"
@@ -132,6 +152,10 @@ class webpageBuilder:
 
         js +   "    newHTML += '<td><select id=\"VARButton\" onchange=\"setupVARImgBox()\">';"
         js +   "    VARtopics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');"
+        js +   "    newHTML += '</select></td>'"
+
+        js +   "    newHTML += '<td><select id=\"SARIMAXButton\" onchange=\"setupVARImgBox()\">';"
+        js +   "    SARIMAXtopics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');"
         js +   "    newHTML += '</select></td>'"
 
 
