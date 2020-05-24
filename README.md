@@ -56,11 +56,7 @@ Docs holds the data for the website. It's got a generated HTML and Javascript fi
 
 _TODO_ Multiple User Agents/IP addresses
 
-_TODO_ Selenium for sites that don't have it
-
-_TODO_ Followup: Can I install selenium easily with reqs.txt (I think the answer is no)
-
-_TODO_ Figure out how to hook this into a github website with JS
+_TODO_ Start keeping pre-processed strings so not re-doing every cycle
 
 
 ## Projects other people have with possibly better functionality-
