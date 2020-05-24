@@ -65,7 +65,6 @@ class webpageBuilder:
         js = badCode()
 
         actual_files = os.listdir("docs/img")
-
         actual_files = os.listdir("docs/img")
         actual_options = [x[:-4].split("_") for x in actual_files if x.endswith(".jpg")]
         actual_options = sorted(actual_options, reverse=True)
@@ -75,9 +74,12 @@ class webpageBuilder:
         js + ",".join(["'{}'".format(x) for x in formated_options])
         js + "]"
 
+        js + "const VARtopics = ["
+        js + ",".join(["'{}'".format(x[:-4]) for x in os.listdir("docs/models/VAR")])
+        js + "]"
+
 
         """ setupImageBox sets up the actual graph"""
-
         js +   "function setupImgBox(){"
         js +   "    var myToken=document.getElementById(\"issueButton\").value;"
 
@@ -94,6 +96,23 @@ class webpageBuilder:
         js +   "    document.getElementById(\"imgBox\").innerHTML = newHTML;"
         js +   "};"
 
+        """ setupVARImageBox sets up VAR projections"""
+        js +   "function setupVARImgBox(){"
+        js +   "    var myToken=document.getElementById(\"VARButton\").value;"
+
+        js +   "    var myIssue = myToken"
+        js +   "    issue = myIssue"
+
+        js +   "    img_name = issue + \".jpg\";"
+
+        js +   "    var newHTML = '<img src = \"./models/VAR/';"
+        js +   "    newHTML += img_name;"
+        js +   "    newHTML += '\" width=90%>';"
+
+        js +   "    document.getElementById(\"imgBox\").innerHTML = newHTML;"
+        js +   "};"
+
+
         """ setupDropDownBox sets up the time and issue select buttons """
         """ time should give the option of aggregating everything from wihin the last 24 hours"""
         """Then maaybe one for last week, last month"""
@@ -105,12 +124,18 @@ class webpageBuilder:
         js +   "    newHTML = '<table id=\"SelectTable\">'"
         js +   "    newHTML += '<caption><i>Select a Series</i></caption>'"
 
-        js +   "    newHTML += '<tr><th>Issue (last updated)</th></tr>'"
+        js +   "    newHTML += '<tr><th>Issue (last updated)</th><th>VAR Model</th></tr>'"
 
         js +   "    newHTML += '<td><select id=\"issueButton\" onchange=\"setupImgBox()\">';"
         js +   "    topics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');"
-        js +   "    newHTML += '</select></td></tr></table>';"
+        js +   "    newHTML += '</select></td>'"
 
+        js +   "    newHTML += '<td><select id=\"VARButton\" onchange=\"setupVARImgBox()\">';"
+        js +   "    VARtopics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');"
+        js +   "    newHTML += '</select></td>'"
+
+
+        js +   "    newHTML += '</tr></table>';"
         js +   "    document.getElementById(\"dropdowns\").innerHTML = newHTML;"
 
         js +   "};"
