@@ -37,7 +37,7 @@ class modelBuilder:
             df = pd.read_pickle(target)
             self.buildQuickVAR(df, target.split("/")[-1][:-4])
             self.buildQuickSARIMAX(df, target.split("/")[-1][:-4])
-            #os.remove("{}".format(target))
+            os.remove("{}".format(target))
 
 
     def buildQuickVAR(self, df, name):
