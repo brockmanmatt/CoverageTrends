@@ -1,5 +1,8 @@
 const topics = [
-'world_20200524-0900','trump_20200524-0900','pandem_20200524-0900','memori_20200524-0900','coronavirus_20200524-0900','black_20200524-0900','biden_20200524-0900','ain_20200524-0900','summer_20200523-2130','weekend_20200523-1700','covid_20200523-1400','time_20200523-1330','beach_20200523-1230','reopen_20200523-1200','china_20200523-1100','open_20200523-0330','open_20200523-0300','open_20200523-0230','case_20200523-0000'
+'world_20200524-0930','trump_20200524-0930','pandem_20200524-0930','memori_20200524-0930','coronavirus_20200524-0930','black_20200524-0930','biden_20200524-0930','ain_20200524-0930','summer_20200523-2130','weekend_20200523-1700','covid_20200523-1400','time_20200523-1330','beach_20200523-1230','reopen_20200523-1200','china_20200523-1100','open_20200523-0330','open_20200523-0300','open_20200523-0230','case_20200523-0000'
+]
+const VARtopics = [
+'coronavirus'
 ]
 function setupImgBox(){
     var myToken=document.getElementById("issueButton").value;
@@ -12,12 +15,26 @@ function setupImgBox(){
     newHTML += '" width=90%>';
     document.getElementById("imgBox").innerHTML = newHTML;
 };
+function setupVARImgBox(){
+    var myToken=document.getElementById("VARButton").value;
+    var myIssue = myToken
+    issue = myIssue
+    img_name = issue + ".jpg";
+    var newHTML = '<img src = "./models/VAR/';
+    newHTML += img_name;
+    newHTML += '" width=90%>';
+    document.getElementById("imgBox").innerHTML = newHTML;
+};
 function setupDropdownBox(){
     newHTML = '<table id="SelectTable">'
     newHTML += '<caption><i>Select a Series</i></caption>'
-    newHTML += '<tr><th>Issue (last updated)</th></tr>'
+    newHTML += '<tr><th>Issue (last updated)</th><th>VAR Model</th></tr>'
     newHTML += '<td><select id="issueButton" onchange="setupImgBox()">';
     topics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');
-    newHTML += '</select></td></tr></table>';
+    newHTML += '</select></td>'
+    newHTML += '<td><select id="VARButton" onchange="setupVARImgBox()">';
+    VARtopics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');
+    newHTML += '</select></td>'
+    newHTML += '</tr></table>';
     document.getElementById("dropdowns").innerHTML = newHTML;
 };
