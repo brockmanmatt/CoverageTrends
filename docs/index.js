@@ -1,8 +1,8 @@
 const topics = [
-'world_20200524-1430','trump_20200524-1430','pandem_20200524-1430','memori_20200524-1430','coronavirus_20200524-1430','case_20200524-1430','black_20200524-1430','biden_20200524-1330','ain_20200524-1010','summer_20200523-2130','weekend_20200523-1700','covid_20200523-1400','time_20200523-1330','beach_20200523-1230','reopen_20200523-1200','china_20200523-1100','open_20200523-0330','open_20200523-0300','open_20200523-0230'
+'world_20200524-1500','trump_20200524-1500','memori_20200524-1500','coronavirus_20200524-1500','case_20200524-1500','pandem_20200524-1430','black_20200524-1430','biden_20200524-1330','ain_20200524-1010','summer_20200523-2130','weekend_20200523-1700','covid_20200523-1400','time_20200523-1330','beach_20200523-1230','reopen_20200523-1200','china_20200523-1100','open_20200523-0330','open_20200523-0300','open_20200523-0230'
 ]
 const VARtopics = [
-'coronavirus','trump','black','ain','world','memori','biden','pandem'
+'coronavirus','trump','black','ain','world','memori','biden','pandem','case'
 ]
 function setupImgBox(){
     var myToken=document.getElementById("issueButton").value;
