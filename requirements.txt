@@ -10,3 +10,4 @@ nltk
 statsmodels
 matplotlib
 pillow
+pmdarima
