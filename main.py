@@ -3,6 +3,7 @@ from git import Repo
 import twitter_filter, multiprocessing
 import buildWebPage
 import timeSeriesConvert
+import quickModel
 
 def updateRepo():
     git.cmd.Git(".").pull()
@@ -13,6 +14,7 @@ def cycle():
     importlib.reload(scraper)
     importlib.reload(buildWebPage)
     importlib.reload(timeSeriesConvert)
+    importlib.reload(quickModel)
 
     try:
         scraper.run()
@@ -34,6 +36,14 @@ def cycle():
         pass
 
     git_push()
+
+    try:
+        qm = quickModel.modelBuilder()
+        qm.buildModels()
+    except:
+        print("error building models")
+        pass
+
 
 def git_push(message='auto-update'):
     try:
