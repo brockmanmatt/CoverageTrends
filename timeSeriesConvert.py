@@ -195,9 +195,10 @@ class wordCruncher:
             tmp = self.bigdf[self.bigdf["quickReplace"].apply(lambda x: x.find(middleWord) > -1)].copy()
             tmp.date = pd.to_datetime(tmp.date)
             tmp = tmp.groupby(["source", "date"]).count()["quickReplace"]
-
-            tmp.unstack(level=0).fillna(0).to_pickle("docs/timeseries")
-
+            try:  #for some reason, sometimes the formatting's getting messed up
+                tmp.unstack(level=0).fillna(0).to_pickle("docs/timeseries/{}.pkl".format(middleWord))
+            except:
+                pass
             ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentions of {}".format(middleWord), figsize=(8,8))
             ax.set_ylabel("frontpage mentions at time")
             try:
