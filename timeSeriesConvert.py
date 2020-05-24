@@ -175,7 +175,7 @@ class wordCruncher:
 
         if verbose:
             print("getting sims")
-        self.getSimilarities(lastN = 5, vectorizestyle=TfidfVectorizer, ngramRange=(1,1))
+        self.getSimilarities(lastN = 2, vectorizestyle=TfidfVectorizer, ngramRange=(1,1))
 
         if verbose:
             print("getting topN")
