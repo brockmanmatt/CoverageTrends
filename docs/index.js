@@ -1,8 +1,8 @@
 const topics = [
-'virus_20200524-2300','trump_20200524-2300','memori_20200524-2300','case_20200524-2300','reopen_20200524-2200','biden_20200524-2130','amid_20200524-2000','pandem_20200524-1930','world_20200524-1800','black_20200524-1430','ain_20200524-1010','summer_20200523-2130','weekend_20200523-1700','covid_20200523-1400','time_20200523-1330','beach_20200523-1230','china_20200523-1100','open_20200523-0330','open_20200523-0300','open_20200523-0230'
+'virus_20200524-2330','trump_20200524-2330','memori_20200524-2330','case_20200524-2330','reopen_20200524-2200','biden_20200524-2130','amid_20200524-2000','pandem_20200524-1930','world_20200524-1800','black_20200524-1430','ain_20200524-1010','summer_20200523-2130','weekend_20200523-1700','covid_20200523-1400','time_20200523-1330','beach_20200523-1230','china_20200523-1100','open_20200523-0330','open_20200523-0300','open_20200523-0230'
 ]
 const VARtopics = [
-'coronavirus','trump','black','ain','world','memori','biden','pandem','case','reopen','amid'
+'coronavirus','trump','black','ain','world','memori','biden','pandem','case','reopen','amid','virus'
 ]
 function setupImgBox(){
     var myToken=document.getElementById("issueButton").value;
