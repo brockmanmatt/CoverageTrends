@@ -26,7 +26,7 @@ class modelBuilder:
         for target in self.targetPaths:
             df = pd.read_pickle(target)
             self.buildQuickVAR(df, target.split("/")[-1][:-4])
-            os.remove("{}/{}".format(self.targetPaths, target))
+            os.remove("{}".format(target))
 
 
     def buildQuickVAR(self, df, name):
