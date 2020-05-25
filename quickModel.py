@@ -96,10 +96,11 @@ class modelBuilder:
         corr_df = corr_df.dropna().corr()[df.columns][len(df.columns):]
 
         max_lag = -1
-
         results_df = df.copy()
 
         #plot SARIMAX using best correlating lag of an exogenous
+        #does some magic to do a bunch of forecasts
+        #I probably should be measuring errors =/
         for column in df.columns:
             #get max lag - we'll plot them all together so the maxlag is going to be the max_lag
             best_series = corr_df[corr_df.index.map(lambda x: not x.endswith(column))][column].idxmax()
@@ -107,20 +108,29 @@ class modelBuilder:
             if lag > max_lag:
                 max_lag = lag
 
-            exogenous = best_series.split("_")[1]
+            exog = best_series.split("_")[1]
 
             endogenous = df[[column]][lag:].copy()
-            exogenous = df[[exogenous]].shift(lag)[lag:]
-
+            exogenous = df[[exog]].shift(lag)[lag:]
             model = auto_arima(endogenous, exogenous=exogenous, scoring="mae", out_of_sample_size=freq, m=freq, stepwise=True)
             endogenous[column]=model.predict_in_sample(exogenous=exogenous)
+            forecasts = pd.DataFrame()
+            forecasts[column] = model.predict(n_periods=lag, exogenous=df[[exog]][-lag:])
+            forecasts.index = [endogenous.index[-1] + x*endogenous.index[-1].freq for x in range(1,lag+1)]
+            endogenous = endogenous.append(forecasts)
+            while results_df.index.max() < endogenous.index.max():
+                results_df = results_df.append(pd.Series(name=results_df.index[-1] + results_df.index[-1].freq))
             results_df[column] = endogenous[column]
 
-        ax = df.plot(title=name, style="-", label="actual", color=self.colors, figsize=(8,8))
-        results_df.dropna().plot(ax=ax, legend=False, style=":", color=self.colors)
+        ax = results_df[max_lag:].plot(legend=False, style=":", color=self.colors, title=name, figsize=(8,8))
+        df.plot(ax=ax, style="-", color=self.colors, legend=True)
 
         ax.figure.savefig("{}/SARIMAX/{}.jpg".format(self.targetDir, name))
         plt.close('all') #close all figures
+
+    def funCorrelationalMatrix(self):
+        """ shows lagged correlation for series """
+        return False
 
     def forecastArimaModels(self):
         return False
