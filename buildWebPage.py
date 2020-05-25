@@ -43,7 +43,7 @@ class webpageBuilder:
         body + "  <div id=\"dropdowns\"></div>"
         body + "  <div id=\"imgBox\"></div>"
         body + "</div>"
-        body + '<script src="{}.js"></script>'.format(self.projectName)
+        body + '<script src="{}.js?2"></script>'.format(self.projectName)
 
         body + '<script>'
         body + 'setupDropdownBox()'
@@ -116,7 +116,7 @@ class webpageBuilder:
         js +   "    document.getElementById(\"imgBox\").innerHTML = newHTML;"
         js +   "};"
 
-        """ setupSARIMAXImageBox sets up VAR projections"""
+        """ setupSARIMAXImageBox sets up SARIMAX projections"""
         js +   "function setupSARIMAXImageBox(){"
         js +   "    var myToken=document.getElementById(\"SARIMAXButton\").value;"
 
