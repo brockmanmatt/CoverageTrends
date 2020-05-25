@@ -41,12 +41,14 @@ class modelBuilder:
     def buildModels(self):
         """ build a model for each target in targetPaths using fnc """
         for target in self.targetPaths:
-            df = pd.read_pickle(target)
-            self.buildQuickVAR(df, target.split("/")[-1][:-4])
-
-            myFreq = "3h"
-            self.buildQuickSARIMAX(df.resample(myFreq).mean().fillna(0), target.split("/")[-1][:-4], freq=8)
-            os.remove("{}".format(target))
+            try:
+                df = pd.read_pickle(target)
+                self.buildQuickVAR(df, target.split("/")[-1][:-4])
+                myFreq = "3h"
+                self.buildQuickSARIMAX(df.resample(myFreq).mean().fillna(0), target.split("/")[-1][:-4], freq=8)
+                os.remove("{}".format(target))
+            except:
+                pass
 
 
     def buildQuickVAR(self, df, name, test_size=-1, validation_size=-1):
