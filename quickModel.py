@@ -106,7 +106,7 @@ class modelBuilder:
             endogenous = df[[column]][lag:].copy()
             exogenous = df[[exogenous]].shift(lag)[lag:]
 
-            model = auto_arima(endogenous, exogenous=exogenous, scoring="mae", out_of_sample_size=12, m=freq, stepwise=True)
+            model = auto_arima(endogenous, exogenous=exogenous, scoring="mae", out_of_sample_size=freq, m=freq, stepwise=True)
             endogenous[column]=model.predict_in_sample(exogenous=exogenous)
             results_df[column] = endogenous[column]
 
