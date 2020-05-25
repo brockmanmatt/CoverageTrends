@@ -91,9 +91,9 @@ class modelBuilder:
         corr_df = np.abs(corr_df)
         corr_df = corr_df.dropna().corr()[df.columns][len(df.columns):]
 
-        #since I generated this, I might as well save it to a pkl
+        #since I generated this, I might as well save it to a csv (js can't read pkl)
         os.makedirs("{}/{}".format(self.targetDir, "corr"), exist_ok=True)
-        corr_df.to_pickle("{}/{}/{}.pkl".format(self.targetDir, "corr", name))
+        corr_df.to_csv("{}/{}/{}.csv".format(self.targetDir, "corr", name))
 
         max_lag = -1
         results_df = df.copy()
