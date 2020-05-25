@@ -1,11 +1,11 @@
 const topics = [
-'weekend_20200525-1930','virus_20200525-1930','trump_20200525-1930','pandem_20200525-1930','memori_20200525-1930','home_20200525-1930','covid_20200525-1930','carolina_20200525-1930','biden_20200525-1930','american_20200525-1930','reopen_20200525-1900','year_20200525-1830','penc_20200525-1830','nation_20200525-1730','amid_20200525-1600','case_20200525-1530','know_20200525-1430','make_20200525-1330','black_20200525-1230','death_20200525-1000','florida_20200525-0830','world_20200524-1800','ain_20200524-1010','summer_20200523-2130','time_20200523-1330','beach_20200523-1230','china_20200523-1100'
+'weekend_20200525-2000','virus_20200525-2000','trump_20200525-2000','pandem_20200525-2000','memori_20200525-2000','home_20200525-2000','covid_20200525-2000','biden_20200525-2000','american_20200525-2000','carolina_20200525-1930','reopen_20200525-1900','year_20200525-1830','penc_20200525-1830','nation_20200525-1730','amid_20200525-1600','case_20200525-1530','know_20200525-1430','make_20200525-1330','black_20200525-1230','death_20200525-1000','florida_20200525-0830','world_20200524-1800','ain_20200524-1010','summer_20200523-2130','time_20200523-1330','beach_20200523-1230','china_20200523-1100'
 ]
 const VARtopics = [
-'ain','world','reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida','make','know','american','nation'
+'ain','world','reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida','make','know','american','nation','year','home'
 ]
 const SARIMAXtopics = [
-'reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida','make','know','american','nation'
+'reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida','make','know','american','nation','year','home'
 ]
 function setupImgBox(){
     var myToken=document.getElementById("issueButton").value;
