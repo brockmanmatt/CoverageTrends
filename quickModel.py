@@ -8,6 +8,11 @@ import matplotlib.pyplot as plt
 from pmdarima import auto_arima
 import numpy as np
 
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.linear_model import LinearRegression
+from sklearn.pipeline import Pipeline
+
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -30,6 +35,8 @@ class modelBuilder:
                 self.targetPaths.append("{}/{}".format(workdir, filename))
         self.targetDir = outdir
         os.makedirs(outdir, exist_ok=True)
+        self.colors = ["orange", "green", "red", "brown", "blue", "yellow", "pink"]
+
 
     def buildModels(self):
         """ build a model for each target in targetPaths using fnc """
@@ -42,7 +49,7 @@ class modelBuilder:
             os.remove("{}".format(target))
 
 
-    def buildQuickVAR(self, df, name):
+    def buildQuickVAR(self, df, name, test_size=-1, validation_size=-1):
         """ builds VAR model for series """
         os.makedirs("{}/VAR".format(self.targetDir), exist_ok=True)
 
@@ -58,14 +65,13 @@ class modelBuilder:
         newVals = results.fittedvalues.append(newVals)
 
         #plot
-        colors = ["orange", "green", "red", "brown", "blue"]
-        ax = newVals.plot(style=":", figsize=(8,8), color=colors, title="VAR Quick Fit for {}".format(name))
-        df.plot(ax=ax, color=colors, legend=False)
+        ax = newVals.plot(style=":", figsize=(8,8), color=self.colors, title="VAR Quick Fit for {}".format(name))
+        df.plot(ax=ax, color=self.colors, legend=False)
 
         ax.figure.savefig("{}/VAR/{}.jpg".format(self.targetDir, name))
         plt.close('all') #close all figures
 
-    def buildQuickSARIMAX(self, df, name, freq=24):
+    def buildQuickSARIMAX(self, df, name, freq=24, test_size=-1, validation_size=-1):
         """ takes dataframe of time series and builds a SARIMAX model for each column """
         """ seasonality is daily for now, which is 48 time step thingies"""
         """ for now, just fiting to training data; will truncate last day starting next week for testing as well"""
@@ -87,7 +93,7 @@ class modelBuilder:
             corr_df = pd.concat([corr_df, df.diff(i).add_prefix("L{}_".format(i))], axis=1)
 
         corr_df = np.abs(corr_df)
-        corr_df = corr_df.dropna().corr()[df.columns][5:]
+        corr_df = corr_df.dropna().corr()[df.columns][len(df.columns):]
 
         max_lag = -1
 
@@ -110,10 +116,8 @@ class modelBuilder:
             endogenous[column]=model.predict_in_sample(exogenous=exogenous)
             results_df[column] = endogenous[column]
 
-        colors = ["orange", "green", "red", "brown", "blue"]
-
-        ax = df.plot(title=name, style="-", label="actual", color=colors, figsize=(8,8))
-        results_df.dropna().plot(ax=ax, legend=False, style=":", color=colors)
+        ax = df.plot(title=name, style="-", label="actual", color=self.colors, figsize=(8,8))
+        results_df.dropna().plot(ax=ax, legend=False, style=":", color=self.colors)
 
         ax.figure.savefig("{}/SARIMAX/{}.jpg".format(self.targetDir, name))
         plt.close('all') #close all figures
@@ -126,7 +130,7 @@ class modelBuilder:
      I'll probably build these for use offline, not sure the EC2 instance
      I'm running this on has processing power for them but one way to find out :)
     """
-    def buildPCARegressor(self):
+    def buildPCARegressor(self, name, test_size=-1, validation_size=-1):
         return False
 
     def buildDecisionTree(self):

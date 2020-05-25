@@ -39,6 +39,7 @@ class wordCruncher:
         self.vectorizer = None
         self.sources = {}
         self.extra_stopwords = ["news", "say", "said", "told", "tell", "day", "video", "week", "state", "new"]
+        self.colors = ["orange", "green", "red", "brown", "blue", "yellow", "pink"]
 
 
     def loadArticles(self, pubList=[], dateStart = -1, dateEnd = -1):
@@ -168,7 +169,7 @@ class wordCruncher:
     def runCurrentDefault(self, verbose=False):
         if verbose:
             print("loading articles")
-        self.loadArticles(pubList = ["newyorktimes", "foxnews", "washingtonpost", "cnn", "breitbart"])
+        self.loadArticles(pubList = ["newyorktimes", "foxnews", "washingtonpost", "cnn", "breitbart", "abcnews", "thedailycaller"])
 
         if verbose:
             print("building bigdf")
