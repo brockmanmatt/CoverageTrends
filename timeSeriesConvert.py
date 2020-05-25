@@ -169,7 +169,7 @@ class wordCruncher:
     def runCurrentDefault(self, verbose=False):
         if verbose:
             print("loading articles")
-        self.loadArticles(pubList = ["newyorktimes", "foxnews", "washingtonpost", "cnn", "breitbart", "abcnews", "thedailycaller"])
+        self.loadArticles(pubList = ["newyorktimes", "foxnews", "washingtonpost", "cnn", "breitbart", "abcnews", "dailycaller"])
 
         if verbose:
             print("building bigdf")
