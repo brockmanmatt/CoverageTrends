@@ -117,7 +117,7 @@ class webpageBuilder:
         js +   "};"
 
         """ setupSARIMAXImageBox sets up VAR projections"""
-        js +   "function setupVARImgBox(){"
+        js +   "function setupSARIMAXImageBox(){"
         js +   "    var myToken=document.getElementById(\"SARIMAXButton\").value;"
 
         js +   "    var myIssue = myToken"
