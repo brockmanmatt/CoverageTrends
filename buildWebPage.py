@@ -154,7 +154,7 @@ class webpageBuilder:
         js +   "    VARtopics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');"
         js +   "    newHTML += '</select></td>'"
 
-        js +   "    newHTML += '<td><select id=\"SARIMAXButton\" onchange=\"setupVARImgBox()\">';"
+        js +   "    newHTML += '<td><select id=\"SARIMAXButton\" onchange=\"setupSARIMAXImageBox()\">';"
         js +   "    SARIMAXtopics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');"
         js +   "    newHTML += '</select></td>'"
 
