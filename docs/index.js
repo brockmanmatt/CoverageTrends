@@ -1,5 +1,5 @@
 const topics = [
-'weekend_20200525-1000','virus_20200525-1000','trump_20200525-1000','reopen_20200525-1000','memori_20200525-1000','death_20200525-1000','covid_20200525-1000','case_20200525-1000','black_20200525-1000','biden_20200525-1000','amid_20200525-1000','florida_20200525-0830','pandem_20200525-0800','world_20200524-1800','ain_20200524-1010','summer_20200523-2130','time_20200523-1330','beach_20200523-1230','china_20200523-1100'
+'weekend_20200525-1030','virus_20200525-1030','trump_20200525-1030','reopen_20200525-1030','memori_20200525-1030','covid_20200525-1030','case_20200525-1030','black_20200525-1030','biden_20200525-1030','amid_20200525-1030','death_20200525-1000','florida_20200525-0830','pandem_20200525-0800','world_20200524-1800','ain_20200524-1010','summer_20200523-2130','time_20200523-1330','beach_20200523-1230','china_20200523-1100'
 ]
 const VARtopics = [
 'ain','world','reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida'
