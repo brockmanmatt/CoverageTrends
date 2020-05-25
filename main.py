@@ -43,13 +43,6 @@ def buildmodels():
         pass
 
     try:
-        print("building webpage")
-        wp = buildWebPage.webpageBuilder()
-        wp.buildWebpage()
-    except:
-        print("error building webpage")
-        pass
-    try:
         print("building models")
         qm = quickModel.modelBuilder()
         qm.buildModels()
@@ -57,6 +50,13 @@ def buildmodels():
         print("error building models")
         pass
 
+    try:
+        print("building webpage")
+        wp = buildWebPage.webpageBuilder()
+        wp.buildWebpage()
+    except:
+        print("error building webpage")
+        pass
 
 def git_push(message='auto-update'):
     try:
