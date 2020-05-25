@@ -58,6 +58,8 @@ _TODO_ Multiple User Agents/IP addresses
 
 _TODO_ Start keeping pre-processed strings so not re-doing every cycle
 
+_TODO_ Don't re-combine strings; do searches on tokens.
+
 
 ## Projects other people have with possibly better functionality-
 
