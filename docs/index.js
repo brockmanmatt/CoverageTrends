@@ -1,11 +1,11 @@
 const topics = [
-'weekend_20200525-0630','virus_20200525-0630','trump_20200525-0630','pandem_20200525-0630','memori_20200525-0630','covid_20200525-0630','case_20200525-0630','amid_20200525-0630','biden_20200525-0530','world_20200524-1800','black_20200524-1430','ain_20200524-1010','summer_20200523-2130','time_20200523-1330','beach_20200523-1230','china_20200523-1100'
+'weekend_20200525-0640','virus_20200525-0640','trump_20200525-0640','pandem_20200525-0640','memori_20200525-0640','covid_20200525-0640','case_20200525-0640','black_20200525-0640','biden_20200525-0640','amid_20200525-0640','world_20200524-1800','ain_20200524-1010','summer_20200523-2130','time_20200523-1330','beach_20200523-1230','china_20200523-1100'
 ]
 const VARtopics = [
-'coronavirus','trump','black','ain','world','memori','biden','pandem','case','reopen','amid','virus','weekend','covid'
+'world','amid','reopen','case','pandem','black','virus','coronavirus','biden','weekend','covid','trump','memori','ain'
 ]
 const SARIMAXtopics = [
-'coronavirus','memori','trump','case','virus','weekend','reopen','biden','amid','pandem','covid'
+'amid','reopen','case','pandem','black','virus','coronavirus','biden','weekend','covid','trump','memori'
 ]
 function setupImgBox(){
     var myToken=document.getElementById("issueButton").value;
