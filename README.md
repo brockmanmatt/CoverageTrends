@@ -42,6 +42,10 @@ Docs holds the data for the website. It's got a generated HTML and Javascript fi
 
 20200520 - Added twitter feeds
 
+20200521 - Added VAR
+
+20200522 - Added SARIMAX
+
 
 # Minor Additions
 
@@ -57,6 +61,8 @@ Docs holds the data for the website. It's got a generated HTML and Javascript fi
 _TODO_ Multiple User Agents/IP addresses
 
 _TODO_ Start keeping pre-processed strings so not re-doing every cycle
+
+_TODO_ Don't re-combine strings; do searches on tokens.
 
 
 ## Projects other people have with possibly better functionality-
