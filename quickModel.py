@@ -36,7 +36,9 @@ class modelBuilder:
         for target in self.targetPaths:
             df = pd.read_pickle(target)
             self.buildQuickVAR(df, target.split("/")[-1][:-4])
-            self.buildQuickSARIMAX(df, target.split("/")[-1][:-4])
+
+            myFreq = "3h"
+            self.buildQuickSARIMAX(df.resample(myFreq).mean().fillna(0), target.split("/")[-1][:-4], freq=8)
             os.remove("{}".format(target))
 
 
@@ -63,18 +65,17 @@ class modelBuilder:
         ax.figure.savefig("{}/VAR/{}.jpg".format(self.targetDir, name))
         plt.close('all') #close all figures
 
-    def buildQuickSARIMAX(self, df, name):
+    def buildQuickSARIMAX(self, df, name, freq=24):
         """ takes dataframe of time series and builds a SARIMAX model for each column """
         """ seasonality is daily for now, which is 48 time step thingies"""
         """ for now, just fiting to training data; will truncate last day starting next week for testing as well"""
 
         os.makedirs("{}/SARIMAX".format(self.targetDir), exist_ok=True)
 
-
         """
         k, doing this at the 30 minute aggregate is WAY too slow, so resampling hour
         """
-        corr_df = df.resample("h").mean()
+        corr_df = df.copy()
         for i in range(1,13):
             corr_df = pd.concat([corr_df, df.diff(i).add_prefix("L{}_".format(i))], axis=1)
 
@@ -105,13 +106,15 @@ class modelBuilder:
             endogenous = df[[column]][lag:].copy()
             exogenous = df[[exogenous]].shift(lag)[lag:]
 
-            model = auto_arima(endogenous, exogenous=exogenous, scoring="mae", out_of_sample_size=12, m=24, stepwise=True)
+            model = auto_arima(endogenous, exogenous=exogenous, scoring="mae", out_of_sample_size=12, m=freq, stepwise=True)
             endogenous[column]=model.predict_in_sample(exogenous=exogenous)
             results_df[column] = endogenous[column]
 
         colors = ["orange", "green", "red", "brown", "blue"]
-        ax = df.plot(title=name, style="-", label="actual", color=colors)
+
+        ax = df.plot(title=name, style="-", label="actual", color=colors, figsize=(8,8))
         results_df.dropna().plot(ax=ax, legend=False, style=":", color=colors)
+
         ax.figure.savefig("{}/SARIMAX/{}.jpg".format(self.targetDir, name))
         plt.close('all') #close all figures
 
