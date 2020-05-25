@@ -93,10 +93,11 @@ class wordCruncher:
 
         self.bigdf= pd.concat([self.loadPubArticles(x) for x in self.articles]).fillna("")
 
+        #from stemmer, get list of stemmed words
         stemmer = SnowballStemmer("english", ignore_stopwords=True)
         self.bigdf["quickReplace"] = self.bigdf["text"].apply(lambda x: re.sub('[^a-z]+', " ", x.lower()))
-        self.bigdf["quickReplace"] = self.bigdf["quickReplace"].apply(lambda x: " ".join([stemmer.stem(y) for y in x.split() if len (y) > 2]))
-
+        self.bigdf["tokens"] = self.bigdf["quickReplace"].apply(lambda x: [stemmer.stem(y) for y in x.split() if len (y) > 2])
+        self.bigdf["quickReplace"] = self.bigdf["tokens"].apply(lambda x: " ".join(x))
 
         #testing["quickReplace"] = testing["text"].apply(lambda x: re.sub('[^a-z]+', " ", x.lower()))
         #testing["quickReplace"] = testing["quickReplace"].apply(lambda x: " ".join([stemmer.stem(y) for y in x.split() if len (y) > 2]))
@@ -192,7 +193,7 @@ class wordCruncher:
         #for middleWord in vcs.where((vcs==2)|(vcs==3)).dropna().index: #k, this is going to be wayyy too many images, but just testing
         for middleWord in vcs.where(vcs>1).dropna().index: #k, this is going to be wayyy too many images, but just testing
 
-            tmp = self.bigdf[self.bigdf["quickReplace"].apply(lambda x: x.find(middleWord) > -1)].copy()
+            tmp = self.bigdf[self.bigdf["tokens"].apply(lambda x: (middleWord in x))].copy()
             tmp.date = pd.to_datetime(tmp.date)
             tmp = tmp.groupby(["source", "date"]).count()["quickReplace"]
             try:  #for some reason, sometimes the formatting's getting messed up
