@@ -81,12 +81,6 @@ class modelBuilder:
         """
         k, doing this at the 30 minute aggregate is WAY too slow, so resampling hour
         """
-        corr_df = df.copy()
-        for i in range(1,13):
-            corr_df = pd.concat([corr_df, df.diff(i).add_prefix("L{}_".format(i))], axis=1)
-
-        corr_df = np.abs(corr_df)
-        corr_df = corr_df.dropna().corr()[df.columns][len(df.columns):]
 
         corr_df = df.copy()
         for i in range(1,13):
@@ -94,6 +88,10 @@ class modelBuilder:
 
         corr_df = np.abs(corr_df)
         corr_df = corr_df.dropna().corr()[df.columns][len(df.columns):]
+
+        #since I generated this, I might as well save it to a pkl
+        os.makedirs("{}/{}".format(self.targetDir, "corr"), exist_ok=True)
+        corr_df.to_pickle("{}/{}/{}.pkl".format(self.targetDir, "corr", name))
 
         max_lag = -1
         results_df = df.copy()
