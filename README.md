@@ -42,6 +42,10 @@ Docs holds the data for the website. It's got a generated HTML and Javascript fi
 
 20200520 - Added twitter feeds
 
+20200521 - Added VAR
+
+20200522 - Added SARIMAX
+
 
 # Minor Additions
 
