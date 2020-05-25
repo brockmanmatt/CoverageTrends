@@ -1,11 +1,11 @@
 const topics = [
-'virus_20200525-2200','trump_20200525-2200','pandem_20200525-2200','memori_20200525-2200','covid_20200525-2200','biden_20200525-2200','american_20200525-2200','honor_20200525-2100','weekend_20200525-2030','home_20200525-2000','carolina_20200525-1930','reopen_20200525-1900','year_20200525-1830','penc_20200525-1830','nation_20200525-1730','amid_20200525-1600','case_20200525-1530','know_20200525-1430','make_20200525-1330','black_20200525-1230','death_20200525-1000','florida_20200525-0830','world_20200524-1800','ain_20200524-1010','summer_20200523-2130','time_20200523-1330','beach_20200523-1230','china_20200523-1100'
+'year_20200525-2230','virus_20200525-2230','trump_20200525-2230','pandem_20200525-2230','memori_20200525-2230','live_20200525-2230','covid_20200525-2230','biden_20200525-2230','american_20200525-2230','honor_20200525-2100','weekend_20200525-2030','home_20200525-2000','carolina_20200525-1930','reopen_20200525-1900','penc_20200525-1830','nation_20200525-1730','amid_20200525-1600','case_20200525-1530','know_20200525-1430','make_20200525-1330','black_20200525-1230','death_20200525-1000','florida_20200525-0830','world_20200524-1800','ain_20200524-1010','summer_20200523-2130','time_20200523-1330','beach_20200523-1230','china_20200523-1100'
 ]
 const VARtopics = [
-'ain','world','reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida','make','know','american','nation','year','home','honor'
+'ain','world','reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida','make','know','american','nation','year','home','honor','live'
 ]
 const SARIMAXtopics = [
-'reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida','make','know','american','nation','year','home','honor'
+'reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida','make','know','american','nation','year','home','honor','live'
 ]
 function setupImgBox(){
     var myToken=document.getElementById("issueButton").value;
