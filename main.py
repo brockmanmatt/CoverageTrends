@@ -9,19 +9,31 @@ def updateRepo():
     git.cmd.Git(".").pull()
     print("pulled")
 
-def cycle():
+def cycle(buildPage = False):
+    """ pulls github repo, runs scraper and updates github, then runs the models """
     updateRepo()
     importlib.reload(scraper)
-    importlib.reload(buildWebPage)
-    importlib.reload(timeSeriesConvert)
-    importlib.reload(quickModel)
-
     try:
         scraper.run()
     except:
         print("error with scraper")
         pass
+    git_push()
+
+    if buildPage:
+        buildmodels()
+
+def cycle2():
+    cycle(buildPage=True)
+
+def buildmodels():
+
+    importlib.reload(buildWebPage)
+    importlib.reload(timeSeriesConvert)
+    importlib.reload(quickModel)
+
     try:
+        print("building words")
         tsc = timeSeriesConvert.wordCruncher()
         tsc.runCurrentDefault()
     except:
@@ -29,15 +41,14 @@ def cycle():
         pass
 
     try:
+        print("building webpage")
         wp = buildWebPage.webpageBuilder()
         wp.buildWebpage()
     except:
         print("error building webpage")
         pass
-
-    git_push()
-
     try:
+        print("building models")
         qm = quickModel.modelBuilder()
         qm.buildModels()
     except:
@@ -129,30 +140,30 @@ schedule.every().day.at("21:00").do(cycle)
 schedule.every().day.at("22:00").do(cycle)
 schedule.every().day.at("23:00").do(cycle)
 
-schedule.every().day.at("00:30").do(cycle)
-schedule.every().day.at("01:30").do(cycle)
-schedule.every().day.at("02:30").do(cycle)
-schedule.every().day.at("03:30").do(cycle)
-schedule.every().day.at("04:30").do(cycle)
-schedule.every().day.at("05:30").do(cycle)
-schedule.every().day.at("06:30").do(cycle)
-schedule.every().day.at("07:30").do(cycle)
-schedule.every().day.at("08:30").do(cycle)
-schedule.every().day.at("09:30").do(cycle)
-schedule.every().day.at("10:30").do(cycle)
-schedule.every().day.at("11:30").do(cycle)
-schedule.every().day.at("12:30").do(cycle)
-schedule.every().day.at("13:30").do(cycle)
-schedule.every().day.at("14:30").do(cycle)
-schedule.every().day.at("15:30").do(cycle)
-schedule.every().day.at("16:30").do(cycle)
-schedule.every().day.at("17:30").do(cycle)
-schedule.every().day.at("18:30").do(cycle)
-schedule.every().day.at("19:30").do(cycle)
-schedule.every().day.at("20:30").do(cycle)
-schedule.every().day.at("21:30").do(cycle)
-schedule.every().day.at("22:30").do(cycle)
-schedule.every().day.at("23:30").do(cycle)
+schedule.every().day.at("00:30").do(cycle2)
+schedule.every().day.at("01:30").do(cycle2)
+schedule.every().day.at("02:30").do(cycle2)
+schedule.every().day.at("03:30").do(cycle2)
+schedule.every().day.at("04:30").do(cycle2)
+schedule.every().day.at("05:30").do(cycle2)
+schedule.every().day.at("06:30").do(cycle2)
+schedule.every().day.at("07:30").do(cycle2)
+schedule.every().day.at("08:30").do(cycle2)
+schedule.every().day.at("09:30").do(cycle2)
+schedule.every().day.at("10:30").do(cycle2)
+schedule.every().day.at("11:30").do(cycle2)
+schedule.every().day.at("12:30").do(cycle2)
+schedule.every().day.at("13:30").do(cycle2)
+schedule.every().day.at("14:30").do(cycle2)
+schedule.every().day.at("15:30").do(cycle2)
+schedule.every().day.at("16:30").do(cycle2)
+schedule.every().day.at("17:30").do(cycle2)
+schedule.every().day.at("18:30").do(cycle2)
+schedule.every().day.at("19:30").do(cycle2)
+schedule.every().day.at("20:30").do(cycle2)
+schedule.every().day.at("21:30").do(cycle2)
+schedule.every().day.at("22:30").do(cycle2)
+schedule.every().day.at("23:30").do(cycle2)
 
 
 while True:
