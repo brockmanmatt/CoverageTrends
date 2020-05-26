@@ -45,7 +45,7 @@ function setupCORRELATIONImageBox(){
     var myToken=document.getElementById("CORRELATIONButton").value;
     var myIssue = myToken
     issue = myIssue
-    var newHTML = '<canvas id="line-chart" width="400" height="400"></canvas>'
+    var newHTML = '<canvas id="line-chart" width="200" height="200"></canvas>'
     newHTML += '<div id="selectBox"></div>'
     document.getElementById("imgBox").innerHTML = newHTML;
     genGraph(issue)

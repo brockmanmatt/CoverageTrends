@@ -35,7 +35,7 @@ class webpageBuilder:
         body + "<body>"
         body + "  <div class=\"item\" id=\"example-graphs\">"
         body + "  <div id=\"dropdowns\"></div>"
-        body + "  <div id=\"imgBox\" style=\"max-width:80%\"></div>"
+        body + "  <div id=\"imgBox\" style=\"max-height:60%\"></div>"
         body + "</div>"
         body + '<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.js" integrity="sha256-iAuxnf8Cwr0yrQkpf6oQG4PaL/oVmoer6V/RfX2KQws=" crossorigin="anonymous"></script>'
         body + '<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>'
@@ -141,7 +141,7 @@ class webpageBuilder:
 
         js +   "    var myIssue = myToken"
         js +   "    issue = myIssue"
-        js +   "    var newHTML = '<canvas id=\"line-chart\" width=\"400\" height=\"400\"></canvas>'"
+        js +   "    var newHTML = '<canvas id=\"line-chart\" width=\"200\" height=\"200\"></canvas>'"
         js +   "    newHTML += '<div id=\"selectBox\"></div>'"
 
         js +   "    document.getElementById(\"imgBox\").innerHTML = newHTML;"
