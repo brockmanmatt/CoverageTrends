@@ -68,10 +68,11 @@ def git_push(message='auto-update'):
         except:
             pass
 
-        try:
-            repo.git.add("docs")
-        except:
-            pass
+        #NOT UPDATING WEB STUFF FROM HERE ANYMORE; JUST TWEETS
+        #try:
+        #    repo.git.add("docs")
+        #except:
+        #    pass
 
         repo.index.commit(message)
         origin = repo.remote(name='origin')

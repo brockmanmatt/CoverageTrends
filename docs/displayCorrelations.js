@@ -124,6 +124,10 @@ function genGraph(model="american"){
     }
     buildChart(myLabel, convertToChartData(myDict[getMe]), "topic " +model+": lagged correlations for "+getMe)
     pageTopic = model
+    myChart.canvas.parentNode.style.height = '70%';
+    myChart.canvas.parentNode.style.width = '70%';
+    myChart.canvas.parentNode.style.maxWidth = '700px';
+
     }
   });
 }
