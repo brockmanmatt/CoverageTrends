@@ -1,11 +1,11 @@
 const topics = [
-'year_20200526-0100','trump_20200526-0100','pandem_20200526-0100','memori_20200526-0100','covid_20200526-0100','coronavirus_20200526-0100','biden_20200526-0100','american_20200526-0100','reopen_20200526-0030','virus_20200525-2230','live_20200525-2230','honor_20200525-2100','weekend_20200525-2030','home_20200525-2000','carolina_20200525-1930','penc_20200525-1830','nation_20200525-1730','amid_20200525-1600','case_20200525-1530','know_20200525-1430','make_20200525-1330','black_20200525-1230','death_20200525-1000','florida_20200525-0830','world_20200524-1800','ain_20200524-1010','summer_20200523-2130','time_20200523-1330','beach_20200523-1230','china_20200523-1100'
+'year_20200526-0200','trump_20200526-0200','summer_20200526-0200','reopen_20200526-0200','pandem_20200526-0200','memori_20200526-0200','face_20200526-0200','covid_20200526-0200','coronavirus_20200526-0200','biden_20200526-0200','american_20200526-0200','virus_20200525-2230','live_20200525-2230','honor_20200525-2100','weekend_20200525-2030','home_20200525-2000','carolina_20200525-1930','penc_20200525-1830','nation_20200525-1730','amid_20200525-1600','case_20200525-1530','know_20200525-1430','make_20200525-1330','black_20200525-1230','death_20200525-1000','florida_20200525-0830','world_20200524-1800','ain_20200524-1010','time_20200523-1330','beach_20200523-1230','china_20200523-1100'
 ]
 const VARtopics = [
-'ain','world','reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida','make','know','american','nation','year','home','honor','live'
+'ain','world','reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida','make','know','american','nation','year','home','honor','live','summer','face'
 ]
 const SARIMAXtopics = [
-'reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida','make','know','american','nation','year','home','honor','live'
+'reopen','amid','biden','black','case','coronavirus','covid','memori','pandem','trump','virus','weekend','death','florida','make','know','american','nation','year','home','honor','live','summer','face'
 ]
 function setupImgBox(){
     var myToken=document.getElementById("issueButton").value;
