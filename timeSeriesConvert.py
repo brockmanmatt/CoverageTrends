@@ -72,7 +72,16 @@ class wordCruncher:
         myData = pd.concat([pd.read_csv(x) for x in myData], ignore_index=True)
         myData["source"] = publisher
 
-        return myData
+        return self.stemArticle(myData)
+
+
+    def stemArticle(self, some_df):
+        #from stemmer, get list of stemmed words
+        stemmer = SnowballStemmer("english", ignore_stopwords=True)
+        some_df["quickReplace"] = some_df["text"].apply(lambda x: re.sub('[^a-z]+', " ", x.lower()))
+        some_df["tokens"] = some_df["quickReplace"].apply(lambda x: [stemmer.stem(y) for y in x.split() if len (y) > 2])
+        some_df["quickReplace"] = some_df["tokens"].apply(lambda x: " ".join(x))
+        return some_df
 
 
     def buildBigDF(self):
@@ -94,15 +103,9 @@ class wordCruncher:
 
         self.bigdf= pd.concat([self.loadPubArticles(x) for x in self.articles]).fillna("")
 
-        #from stemmer, get list of stemmed words
-        stemmer = SnowballStemmer("english", ignore_stopwords=True)
-        self.bigdf["quickReplace"] = self.bigdf["text"].apply(lambda x: re.sub('[^a-z]+', " ", x.lower()))
-        self.bigdf["tokens"] = self.bigdf["quickReplace"].apply(lambda x: [stemmer.stem(y) for y in x.split() if len (y) > 2])
-        self.bigdf["quickReplace"] = self.bigdf["tokens"].apply(lambda x: " ".join(x))
 
         #testing["quickReplace"] = testing["text"].apply(lambda x: re.sub('[^a-z]+', " ", x.lower()))
         #testing["quickReplace"] = testing["quickReplace"].apply(lambda x: " ".join([stemmer.stem(y) for y in x.split() if len (y) > 2]))
-
 
     def getSimilarities(self, lastN = -1, vectorizestyle=TfidfVectorizer, ngramRange=(1,2)):
         """ checks cosine similarity between publications, can check just last n scrapes """
@@ -166,7 +169,7 @@ class wordCruncher:
 
         return result
 
-    def runCurrentDefault(self, verbose=False):
+    def runCurrentDefault(self, verbose=False, outdir="docs"):
         if verbose:
             print("loading articles")
         self.loadArticles(pubList = ["newyorktimes", "foxnews", "washingtonpost", "cnn", "breitbart", "abcnews", "dailycaller"])
@@ -189,8 +192,8 @@ class wordCruncher:
         myTime = myTime[:-1]
         myTime +="0"
         plt.close('all') #in case of zombies or something
-        os.makedirs("docs/img", exist_ok=True)
-        os.makedirs("docs/timeseries", exist_ok=True)
+        os.makedirs("{}/img".format(outdir), exist_ok=True)
+        os.makedirs("{}/timeseries".format(outdir), exist_ok=True)
         #for middleWord in vcs.where((vcs==2)|(vcs==3)).dropna().index: #k, this is going to be wayyy too many images, but just testing
         for middleWord in vcs.where(vcs>1).dropna().index: #k, this is going to be wayyy too many images, but just testing
 
@@ -198,17 +201,17 @@ class wordCruncher:
             tmp.date = pd.to_datetime(tmp.date)
             tmp = tmp.groupby(["source", "date"]).count()["quickReplace"]
             try:  #for some reason, sometimes the formatting's getting messed up
-                tmp.unstack(level=0).fillna(0).to_pickle("docs/timeseries/{}.pkl".format(middleWord))
+                tmp.unstack(level=0).fillna(0).to_pickle("{}/timeseries/{}.pkl".format(outdir, middleWord))
             except:
                 pass
             ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentions of {}".format(middleWord), figsize=(8,8))
             ax.set_ylabel("frontpage mentions at time")
             try:
-                deleteMe = [oldFile for oldFile in os.listdir("docs/img") if oldFile.endswith(middleWord+".jpg")]
+                deleteMe = [oldFile for oldFile in os.listdir("{}/img").format(outdir) if oldFile.endswith(middleWord+".jpg")]
                 for oldFile in deleteMe:
                     os.remove("docs/img/{}".format(oldFile))
             except:
                 pass
 
-            ax.figure.savefig("docs/img/{}_{}.jpg".format(myTime, middleWord))
+            ax.figure.savefig("{}/img/{}_{}.jpg".format(outdir, myTime, middleWord))
             plt.close('all') #close all figures
