@@ -27,12 +27,7 @@ class webpageBuilder:
         header + '<meta charset="UTF-8">'
         #header + '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
         header + '<title>{}</title>'.format(self.title)
-
-        header + '<style>'
-        header + 'img {'
-        header + '  width: 70%;'
-        header + '}'
-        header + '</style>'
+        header + '<link rel="stylesheet" href="index.css">'
 
 
         header + '</head>'
@@ -43,7 +38,12 @@ class webpageBuilder:
         body + "  <div id=\"dropdowns\"></div>"
         body + "  <div id=\"imgBox\"></div>"
         body + "</div>"
+        body + '<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.js" integrity="sha256-iAuxnf8Cwr0yrQkpf6oQG4PaL/oVmoer6V/RfX2KQws=" crossorigin="anonymous"></script>'
+        body + '<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>'
+
         body + '<script src="{}.js?2"></script>'.format(self.projectName)
+        body + '<script src="displayCorrelations.js?2"></script>'
+
 
         body + '<script>'
         body + 'setupDropdownBox()'
@@ -80,6 +80,10 @@ class webpageBuilder:
 
         js + "const SARIMAXtopics = ["
         js + ",".join(["'{}'".format(x[:-4]) for x in os.listdir("docs/models/SARIMAX")])
+        js + "]"
+
+        js + "const CORRELATIONtopics = ["
+        js + ",".join(["'{}'".format(x[:-4]) for x in os.listdir("docs/models/corr")])
         js + "]"
 
 
@@ -132,6 +136,20 @@ class webpageBuilder:
         js +   "    document.getElementById(\"imgBox\").innerHTML = newHTML;"
         js +   "};"
 
+        """ setupCORRELATIONImageBox sets up the lagged correlation thingy"""
+        js +   "function setupCORRELATIONImageBox(){"
+        js +   "    var myToken=document.getElementById(\"CORRELATIONButton\").value;"
+
+        js +   "    var myIssue = myToken"
+        js +   "    issue = myIssue"
+        js +   "    var newHTML = '<canvas id=\"line-chart\" width=\"400\" height=\"400\"></canvas>'"
+        js +   "    newHTML += '<div id=\"selectBox\"></div>'"
+
+        js +   "    document.getElementById(\"imgBox\").innerHTML = newHTML;"
+        js +   "    genGraph(issue)"
+        js +   "};"
+
+
 
         """ setupDropDownBox sets up the time and issue select buttons """
         """ time should give the option of aggregating everything from wihin the last 24 hours"""
@@ -144,7 +162,13 @@ class webpageBuilder:
         js +   "    newHTML = '<table id=\"SelectTable\">'"
         js +   "    newHTML += '<caption><i>Select a Series</i></caption>'"
 
-        js +   "    newHTML += '<tr><th>Issue (last updated)</th><th>VAR Model</th></th><th>SARIMAX Model</th></tr>'"
+        js +   "    newHTML += '<tr>'"
+        js +   "    newHTML += '<th>Issue (last updated)</th><'"
+        js +   "    newHTML += '<th>VAR</th>'"
+        js +   "    newHTML += '<th>SARIMAX</th>'"
+        js +   "    newHTML += '<th>Lagged Corr</th>'"
+        js +   "    newHTML += '</tr>'"
+
 
         js +   "    newHTML += '<td><select id=\"issueButton\" onchange=\"setupImgBox()\">';"
         js +   "    topics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');"
@@ -156,6 +180,10 @@ class webpageBuilder:
 
         js +   "    newHTML += '<td><select id=\"SARIMAXButton\" onchange=\"setupSARIMAXImageBox()\">';"
         js +   "    SARIMAXtopics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');"
+        js +   "    newHTML += '</select></td>'"
+
+        js +   "    newHTML += '<td><select id=\"CORRELATIONButton\" onchange=\"setupCORRELATIONImageBox()\">';"
+        js +   "    CORRELATIONtopics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');"
         js +   "    newHTML += '</select></td>'"
 
 
