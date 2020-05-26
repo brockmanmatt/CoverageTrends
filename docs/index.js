@@ -7,6 +7,9 @@ const VARtopics = [
 const SARIMAXtopics = [
 'summer','amid','american','reopen','make','case','year','home','pandem','know','face','black','virus','test','coronavirus','biden','nation','weekend','covid','honor','death','mask','trump','florida','live','memori'
 ]
+const CORRELATIONtopics = [
+'memori','trump','mask','coronavirus','biden','test','covid','year','face','home','pandem','american','summer','reopen'
+]
 function setupImgBox(){
     var myToken=document.getElementById("issueButton").value;
     var myIssue = myToken.split('_')
@@ -38,10 +41,24 @@ function setupSARIMAXImageBox(){
     newHTML += '" width=90%>';
     document.getElementById("imgBox").innerHTML = newHTML;
 };
+function setupCORRELATIONImageBox(){
+    var myToken=document.getElementById("CORRELATIONButton").value;
+    var myIssue = myToken
+    issue = myIssue
+    var newHTML = '<canvas id="line-chart" width="400" height="400"></canvas>'
+    newHTML += '<div id="selectBox"></div>'
+    document.getElementById("imgBox").innerHTML = newHTML;
+    genGraph(issue)
+};
 function setupDropdownBox(){
     newHTML = '<table id="SelectTable">'
     newHTML += '<caption><i>Select a Series</i></caption>'
-    newHTML += '<tr><th>Issue (last updated)</th><th>VAR Model</th></th><th>SARIMAX Model</th></tr>'
+    newHTML += '<tr>'
+    newHTML += '<th>Issue (last updated)</th><'
+    newHTML += '<th>VAR</th>'
+    newHTML += '<th>SARIMAX</th>'
+    newHTML += '<th>Lagged Corr</th>'
+    newHTML += '</tr>'
     newHTML += '<td><select id="issueButton" onchange="setupImgBox()">';
     topics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');
     newHTML += '</select></td>'
@@ -50,6 +67,9 @@ function setupDropdownBox(){
     newHTML += '</select></td>'
     newHTML += '<td><select id="SARIMAXButton" onchange="setupSARIMAXImageBox()">';
     SARIMAXtopics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');
+    newHTML += '</select></td>'
+    newHTML += '<td><select id="CORRELATIONButton" onchange="setupCORRELATIONImageBox()">';
+    CORRELATIONtopics.forEach(topic => newHTML+= '<option value='+topic+'>'+topic+'</option>');
     newHTML += '</select></td>'
     newHTML += '</tr></table>';
     document.getElementById("dropdowns").innerHTML = newHTML;
