@@ -1,7 +1,7 @@
 # CoverageTrends
 This archives headlines and links on news websites every 30 minutes. Working on getting it down to less time using less space, but wanted to start archiving sooner than later. Should be updating graphs at https://brockmanmatt.github.io/CoverageTrends/ in the next couple days, also should move it off of this repo now that I think about it.
 
-## k, lesson learned: don't try to run the scraper using the exact same code as the modeler
+## k, lesson learned: don't run modeling on same instance as scraping.
 
 # main.py
 Sets timers to run every 30 minutes
