@@ -48,6 +48,8 @@ Docs holds the data for the website. It's got a generated HTML and Javascript fi
 
 20200522 - Added SARIMAX
 
+20200526 - Taking modeling out of the 30 minute update due to resource usage.
+
 
 # Minor Additions
 
