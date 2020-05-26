@@ -1,6 +1,7 @@
 import os, re
 import pandas as pd
 import numpy as np
+import nltk
 from nltk.stem.snowball import SnowballStemmer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -33,6 +34,7 @@ class wordCruncher:
 
     def __init__(self, workdir = "archived_links"):
         """ load possible publications from workdir, assumes set up workdir/pub/month """
+        nltk.download('stopwords')
         self.allPubs = [x for x in os.listdir(workdir) if x.find(".") == -1]
         self.workdir = workdir
         self.ready = False

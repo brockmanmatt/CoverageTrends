@@ -26,7 +26,8 @@ def cycle(buildPage = False):
 
 
 def cycle2():
-    cycle(buildPage=True)
+    cycle()
+    #cycle(buildPage=True)
 
 def buildmodels():
 

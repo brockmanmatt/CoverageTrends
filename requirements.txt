@@ -7,7 +7,7 @@ requests
 tweepy
 scikit-learn
 nltk
-statsmodels
+statsmodels:0.11.1
 matplotlib
 pillow
 pmdarima
