@@ -62,7 +62,8 @@ _TODO_ Multiple User Agents/IP addresses
 
 _TODO_ Start keeping pre-processed strings so not re-doing every cycle
 
-_TODO_ Don't re-combine strings; do searches on tokens.
+_TODO_ Find the zombie process; either memory leak on making image (which I'm about to resolve by just updating csvs of time series) or it's a selenium thing.
+
 
 
 ## Projects other people have with possibly better functionality-
