@@ -27,7 +27,6 @@ class webpageBuilder:
         header + '<meta charset="UTF-8">'
         #header + '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
         header + '<title>{}</title>'.format(self.title)
-        header + '<link rel="stylesheet" href="index.css">'
 
 
         header + '</head>'
@@ -36,7 +35,7 @@ class webpageBuilder:
         body + "<body>"
         body + "  <div class=\"item\" id=\"example-graphs\">"
         body + "  <div id=\"dropdowns\"></div>"
-        body + "  <div id=\"imgBox\" style=\"max-height:70%\"></div>"
+        body + "  <div id=\"imgBox\" style=\"max-width:80%\"></div>"
         body + "</div>"
         body + '<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.js" integrity="sha256-iAuxnf8Cwr0yrQkpf6oQG4PaL/oVmoer6V/RfX2KQws=" crossorigin="anonymous"></script>'
         body + '<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>'
