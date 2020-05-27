@@ -108,7 +108,7 @@ function convertToChartData(someDict){
 }
 
 function genGraph(model="american"){
-  Papa.parse("https://raw.githubusercontent.com/brockmanmatt/CoverageTrends/master/docs/models/corr/american.csv", {
+  Papa.parse("https://raw.githubusercontent.com/brockmanmatt/CoverageTrends/master/docs/models/corr/" + model + ".csv", {
   	download: true,
     dynamicTyping: true,
     header:true,
