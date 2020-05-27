@@ -42,7 +42,7 @@ class wordCruncher:
         self.sources = {}
         self.extra_stopwords = ["news", "say", "said", "told", "tell", "day", "video", "week", "state", "new"]
         self.colors = ["orange", "green", "red", "brown", "blue", "yellow", "pink"]
-
+        self.bigdf = ""
 
     def loadArticles(self, pubList=[], dateStart = -1, dateEnd = -1):
         """ load text of articles into a dictionary """
@@ -50,12 +50,14 @@ class wordCruncher:
         if pubList == []:
             getPubs = self.allPubs
 
+
         self.articles = {}
         for pub in getPubs:
             if pub not in self.allPubs:
                 print("No folder found for {}".format(pub))
-            else:
-                self.articles[pub] = self.loadPubArticles(pub, dateStart, dateEnd)
+                continue
+
+            self.articles[pub] = self.loadPubArticles(pub, dateStart, dateEnd)
 
     def loadPubArticles(self, publisher, dateStart=-1, dateEnd=-1):
         """ Loads articles from dateStart to dateEnd into articles as a dataframe in a dict"""
@@ -68,7 +70,16 @@ class wordCruncher:
             if month.find(".") > -1:
                 continue
             monthPath = "{}/{}".format(pubPath, month)
+
+            #load each day if not outside start/end
             for day in os.listdir(monthPath):
+                if int(dateStart) > -1:
+                    if int(day.split("_")[1][:-4]) < int(dateStart):
+                        continue
+                if int(dateEnd) > -1:
+                    if int(day.split("_")[1][:-4]) > int(dateEnd):
+                        continue
+
                 myData.append("{}/{}".format(monthPath, day))
 
         myData = pd.concat([pd.read_csv(x) for x in myData], ignore_index=True)
@@ -171,6 +182,106 @@ class wordCruncher:
 
         return result
 
+
+
+    def generateCoOccurances(self, pubList = ["newyorktimes", "foxnews", "washingtonpost", "cnn", "breitbart", "abcnews", "dailycaller"], verbose=False, outdir="tmp", vectorizestyle=CountVectorizer, dateStart = -1, topK = 20):
+        """ So topics are nice, but how does the 2nd level agenda setting (framing) work?
+            (that might not be the right terminology; I'm not a worder)
+        """
+
+        if verbose:
+            print("loading articles")
+        self.loadArticles(pubList = pubList, dateStart = dateStart)
+
+        if verbose:
+            print("building bigdf")
+        self.buildBigDF()
+
+        stopwords = text.ENGLISH_STOP_WORDS.union(self.extra_stopwords)
+
+        self.vectorizer = vectorizestyle(stop_words = stopwords)
+
+        # get the transformed DF
+        X = self.vectorizer.fit_transform(self.bigdf.quickReplace)
+        X[X > 0] = 1
+
+        coOccurance = (X.T * X)
+        coOccurance.setdiag(0)
+        d = coOccurance.todense()
+
+        top_prs = np.dstack(np.unravel_index(np.argpartition(d.ravel(),-20)[:,-20:],d.shape))[0]
+
+        vals = []
+        keys = self.vectorizer.get_feature_names()
+        for pair in top_prs:
+            vals.append([keys[pair[0]], keys[pair[1]]])
+
+        #So now for each day for each time period I want to math out the co-occurances!
+        return vals
+
+    def getRecentInterestingGroups(self, pubList = ["newyorktimes", "foxnews", "washingtonpost", "cnn", "breitbart", "abcnews", "dailycaller"], outdir = "docs"):
+        vals =self.generateCoOccurances(dateStart=(datetime.datetime.today()-datetime.timedelta(days=1)).strftime("%Y%m%d"), )
+
+        grps = {}
+        idx = 0
+        for val in vals:
+            found = False
+            for grp in grps:
+                if val[0] in grps[grp]:
+                    grps[grp].add(val[1])
+                    found=True
+                    continue
+                elif val[1] in grps[grp]:
+                    grps[grp].add(val[0])
+                    found=True
+                    continue
+
+            if not found:
+                grps[idx] = set()
+                grps[idx].add(val[0])
+                grps[idx].add(val[1])
+                idx +=1
+
+        myTargets = [x[1] for x in grps.items() if len(x[1]) < 4]
+        print("targets: {}".format(myTargets))
+
+        self.loadArticles(pubList=pubList)
+        print("building bigdf2")
+        self.buildBigDF()
+
+        myTime = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d-%H%M')
+        myTime = myTime[:-1]
+        myTime +="0"
+
+        plt.close('all') #in case of zombies or something
+        os.makedirs("{}/img".format(outdir), exist_ok=True)
+        os.makedirs("{}/timeseries".format(outdir), exist_ok=True)
+
+        for target_words in myTargets:
+            print("making df for {}".format(target_words))
+            tmp = self.bigdf[self.bigdf.tokens.apply(lambda x: len(set(x))==len(target_words|set(x)))]
+
+            print(len(tmp))
+
+            tmp.date = pd.to_datetime(tmp.date)
+            tmp = tmp.groupby(["source", "date"]).count()["quickReplace"]
+
+            print("making source series for {}".format(target_words))
+            tmp.unstack(level=0).fillna(0).to_pickle("{}/timeseries/{}.pkl".format(outdir, "_and_".join(target_words)))
+
+            print("making plot for {}".format(target_words))
+            ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentions of {}".format("_and_".join(target_words)), figsize=(8,8))
+            ax.set_ylabel("frontpage mentions at time")
+
+            deleteMe = [oldFile for oldFile in os.listdir("{}/img".format(outdir)) if oldFile.endswith("_and_".join(target_words)+".jpg")]
+            for oldFile in deleteMe:
+                os.remove("docs/img/{}".format(oldFile))
+
+            ax.figure.savefig("{}/img/{}_{}.jpg".format(outdir, myTime, "_and_".join(target_words)))
+            plt.close('all') #close all figures
+
+
+
     def runCurrentDefault(self, verbose=False, outdir="docs"):
         if verbose:
             print("loading articles")
@@ -209,7 +320,7 @@ class wordCruncher:
             ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentions of {}".format(middleWord), figsize=(8,8))
             ax.set_ylabel("frontpage mentions at time")
             try:
-                deleteMe = [oldFile for oldFile in os.listdir("{}/img").format(outdir) if oldFile.endswith(middleWord+".jpg")]
+                deleteMe = [oldFile for oldFile in os.listdir("{}/img".format(outdir)) if oldFile.endswith(middleWord+".jpg")]
                 for oldFile in deleteMe:
                     os.remove("docs/img/{}".format(oldFile))
             except:

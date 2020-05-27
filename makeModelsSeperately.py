@@ -14,6 +14,7 @@ git.cmd.Git(".").pull()
 print("selecting words")
 tsc = timeSeriesConvert.wordCruncher()
 tsc.runCurrentDefault()
+tsc.getRecentInterestingGroups()
 
 print("making models")
 qm = quickModel.modelBuilder()
@@ -26,16 +27,9 @@ wp.buildWebpage()
 
 timeTaken="({} seconds taken)".format(time.time()-startTime)
 
-
 try:
     message = ("manual run add-models {}".format(timeTaken))
     repo = Repo("./.git")
-    repo.git.add("archived_links")
-    try:
-        repo.git.add("archived_tweets")
-    except:
-        pass
-
     try:
         repo.git.add("docs")
     except:
