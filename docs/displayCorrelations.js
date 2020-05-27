@@ -118,6 +118,12 @@ function convertToChartData(someDict){
 }
 
 function genGraph(model="american"){
+
+  myLabel = []
+  myDict = {}
+  myChart = ""
+  pageTopic = ""
+
   console.log("https://raw.githubusercontent.com/brockmanmatt/CoverageTrends/master/docs/models/corr/" + model + ".csv")
   Papa.parse("https://raw.githubusercontent.com/brockmanmatt/CoverageTrends/master/docs/models/corr/" + model + ".csv", {
   	download: true,
