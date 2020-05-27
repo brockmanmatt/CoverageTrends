@@ -4,6 +4,12 @@ var myChart = ""
 var pageTopic = ""
 
 function buildChart(aLabel, aDict, title){
+  try{
+    myChart.destroy();
+  }
+  catch{
+
+  }
   myChart = new Chart(document.getElementById("line-chart"), {
   type: 'line',
   data: {
@@ -28,7 +34,11 @@ document.getElementById("selectBox").innerHTML = selectHTML
 }
 
 function changeChart(){
-  myChart.destroy();
+  try{
+    myChart.destroy();
+  } catch{
+
+  }
   console.log("HERE")
   var publisher = document.getElementById("correlationSelectOption").value;
   console.log(publisher)
@@ -108,6 +118,7 @@ function convertToChartData(someDict){
 }
 
 function genGraph(model="american"){
+  console.log("https://raw.githubusercontent.com/brockmanmatt/CoverageTrends/master/docs/models/corr/" + model + ".csv")
   Papa.parse("https://raw.githubusercontent.com/brockmanmatt/CoverageTrends/master/docs/models/corr/" + model + ".csv", {
   	download: true,
     dynamicTyping: true,
