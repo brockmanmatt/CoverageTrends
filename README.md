@@ -27,6 +27,9 @@ scrapes twitter, requires a twitter API with the keys in "twitter_keys.json" as 
 
 ```
 
+# applyULMFiT.py
+Uses the fastai ULMFiT tool https://docs.fast.ai/text.html with AWD_LSTM to update model embeddings and predict when/by which publication a headline was written. Requires GPU & fastai library (not included in requirments.txt because not needed if not using).
+
 # archived links
 contains a folder for each news site, where within each folder there's a .csv for each day with the headlines and urls on the home page at each scrape. Time is normalized to UTC time.
 
