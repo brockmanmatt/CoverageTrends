@@ -144,7 +144,7 @@ class ulmfitter:
         return self.test
 
     def runMeDefault(self, pubList = []):
-        if pubList == "default"
+        if pubList == "default":
             pubList = ["newyorktimes", "foxnews", "washingtonpost", "cnn", "breitbart", "abcnews", "dailycaller"]
         self.loadArticles(pubList = pubList, outdir="test")
         self.setUpSets(outdir="test")
