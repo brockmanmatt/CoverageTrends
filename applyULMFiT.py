@@ -143,8 +143,9 @@ class ulmfitter:
         self.test.to_pickle("{}/predictions.pkl".format(outdir))
         return self.test
 
-    def runMeDefault(self):
-        pubList = ["newyorktimes", "foxnews", "washingtonpost", "cnn", "breitbart", "abcnews", "dailycaller"]
+    def runMeDefault(self, pubList = []):
+        if pubList == "default"
+            pubList = ["newyorktimes", "foxnews", "washingtonpost", "cnn", "breitbart", "abcnews", "dailycaller"]
         self.loadArticles(pubList = pubList, outdir="test")
         self.setUpSets(outdir="test")
         self.setupEmbeddings(path="test")
