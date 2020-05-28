@@ -267,17 +267,17 @@ class wordCruncher:
             tmp = tmp.groupby(["source", "date"]).count()["quickReplace"]
 
             print("making source series for {}".format(target_words))
-            tmp.unstack(level=0).fillna(0).to_pickle("{}/timeseries/{}.pkl".format(outdir, "_and_".join(target_words)))
+            tmp.unstack(level=0).fillna(0).to_pickle("{}/timeseries/{}.pkl".format(outdir, "+".join(target_words)))
 
             print("making plot for {}".format(target_words))
-            ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentions of {}".format("_and_".join(target_words)), figsize=(8,8))
+            ax = tmp.unstack(level=0).fillna(0).plot(title="Frontpage mentions of {}".format("+".join(target_words)), figsize=(8,8))
             ax.set_ylabel("frontpage mentions at time")
 
-            deleteMe = [oldFile for oldFile in os.listdir("{}/img".format(outdir)) if oldFile.endswith("_and_".join(target_words)+".jpg")]
+            deleteMe = [oldFile for oldFile in os.listdir("{}/img".format(outdir)) if oldFile.endswith("+".join(target_words)+".jpg")]
             for oldFile in deleteMe:
                 os.remove("docs/img/{}".format(oldFile))
 
-            ax.figure.savefig("{}/img/{}_{}.jpg".format(outdir, myTime, "_and_".join(target_words)))
+            ax.figure.savefig("{}/img/{}_{}.jpg".format(outdir, myTime, "+".join(target_words)))
             plt.close('all') #close all figures
 
 
