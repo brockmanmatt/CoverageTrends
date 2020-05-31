@@ -4,6 +4,9 @@ import time, datetime, importlib
 import os
 from datetime import timezone
 
+import sys
+sys.path.append(".")
+
 
 def run(verbose=False, path="archived_links", checkSelenium=False, onlyWebsite=False):
     myTime = datetime.datetime.now(tz=timezone.utc).strftime('%Y%m%d-%H%M')
@@ -97,4 +100,4 @@ def run(verbose=False, path="archived_links", checkSelenium=False, onlyWebsite=F
             pass
 
 if __name__ == '__main__':
-    run(verbose=True)
+    run(verbose=True, path="testing")
