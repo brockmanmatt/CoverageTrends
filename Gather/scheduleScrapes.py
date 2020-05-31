@@ -1,6 +1,6 @@
 import git, schedule, time, importlib, os
 from git import Repo
-import Gather.twitter_filter, Gather.scraper
+import twitter_filter, scraper
 import multiprocessing
 
 def updateRepo():
