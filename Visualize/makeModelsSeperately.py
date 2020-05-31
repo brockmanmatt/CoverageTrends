@@ -1,10 +1,15 @@
 import buildWebPage
-import timeSeriesConvert
-import quickModel
 
 import git
 from git import Repo
 import time
+
+import sys
+sys.path.append(".")
+import Describe.timeSeriesConvert as timeSeriesConvert
+import Predict.quickModel as quickModel
+
+
 
 startTime = time.time()
 
