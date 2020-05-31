@@ -7,18 +7,15 @@ def updateRepo():
     git.cmd.Git(".").pull()
     print("pulled")
 
-def cycle2(buildPage = False):
+def cycle(buildPage = False):
     """ pulls github repo, runs scraper and updates github, then runs the models """
     updateRepo()
-    importlib.reload(Gather.scraper)
+    importlib.reload(scraper)
     try:
         scraper.run()
     except:
         print("error with scraper")
         pass
-
-    if buildPage:
-        buildmodels()
 
     git_push()
 
