@@ -1,34 +1,19 @@
 # CoverageTrends
 This archives headlines and links on news websites every 30 minutes. Working on getting it down to less time using less space, but wanted to start archiving sooner than later. Should be updating graphs at https://brockmanmatt.github.io/CoverageTrends/ in the next couple days, also should move it off of this repo now that I think about it.
 
-## k, lesson learned: don't run modeling on same instance as scraping.
+# Installation:
+Install requirements.txt for basic functionality. 
 
-# main.py
-Sets timers to run every 30 minutes
+For additional functionality, Chrome driver and selenium required for additional scraping. fastai required for neural networks, should probably put that in its own folder with its own requirements.txt.
 
-# scraper.py
-uses each parser in parsers to scrape each news site and add to the daily csv for each news source.
+# Gather
+Used to gather news data (currently for scraping front pages and downloading tweets)
 
-# parsers
-contains a parser for each news site which visits the home page and scrapes the linked headlines and urls.
+# Describe
+Descriptive analysis of news coverage
 
-# selenium_parsers
-parsers that use selenium; see https://selenium-python.readthedocs.io/getting-started.html#simple-usage for installation instructions. It depends on OS. Really, just Google how to install selenium and chrome driver on your OS and go off stack exhcange.
-
-# twitter_filter.py
-scrapes twitter, requires a twitter API with the keys in "twitter_keys.json" as a dict with the following properties:
-```
-{
-  "CONSUMER_KEY":"[KEY]",
-  "CONSUMER_SECRET":"[KEY]",
-  "ACCESS_TOKEN":"[KEY]",
-  "ACCESS_TOKEN_SECRET":"[KEY]"
-}
-
-```
-
-# applyULMFiT.py
-Uses the fastai ULMFiT tool https://docs.fast.ai/text.html with AWD_LSTM to update model embeddings and predict when/by which publication a headline was written. Requires GPU & fastai library (not included in requirments.txt because not needed if not using).
+# Predict
+Predictive analysis of news coverage
 
 # archived links
 contains a folder for each news site, where within each folder there's a .csv for each day with the headlines and urls on the home page at each scrape. Time is normalized to UTC time.
