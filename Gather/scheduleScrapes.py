@@ -1,18 +1,16 @@
-import git, schedule, time, importlib, scraper, os
+import git, schedule, time, importlib, os
 from git import Repo
-import twitter_filter, multiprocessing
-import buildWebPage
-import timeSeriesConvert
-import quickModel
+import Gather.twitter_filter, Gather.scraper
+import multiprocessing
 
 def updateRepo():
     git.cmd.Git(".").pull()
     print("pulled")
 
-def cycle(buildPage = False):
+def cycle2(buildPage = False):
     """ pulls github repo, runs scraper and updates github, then runs the models """
     updateRepo()
-    importlib.reload(scraper)
+    importlib.reload(Gather.scraper)
     try:
         scraper.run()
     except:
@@ -23,41 +21,6 @@ def cycle(buildPage = False):
         buildmodels()
 
     git_push()
-
-
-def cycle2():
-    cycle()
-    #cycle(buildPage=True)
-
-def buildmodels():
-
-    importlib.reload(buildWebPage)
-    importlib.reload(timeSeriesConvert)
-    importlib.reload(quickModel)
-
-    try:
-        print("building words")
-        tsc = timeSeriesConvert.wordCruncher()
-        tsc.runCurrentDefault()
-    except:
-        print("error making images")
-        pass
-
-    try:
-        print("building models")
-        qm = quickModel.modelBuilder()
-        qm.buildModels()
-    except:
-        print("error building models")
-        pass
-
-    try:
-        print("building webpage")
-        wp = buildWebPage.webpageBuilder()
-        wp.buildWebpage()
-    except:
-        print("error building webpage")
-        pass
 
 def git_push(message='auto-update'):
     try:
@@ -112,37 +75,36 @@ class twitter_holder:
 
 
 os.makedirs("archived_links", exist_ok=True)
-os.makedirs("docs", exist_ok=True)
 
 
 myTwitterScraper = twitter_holder()
 
 schedule.every().day.at("00:00").do(myTwitterScraper.reset_twitter_filter)
 
-schedule.every().day.at("00:00").do(cycle2)
-schedule.every().day.at("01:00").do(cycle2)
-schedule.every().day.at("02:00").do(cycle2)
-schedule.every().day.at("03:00").do(cycle2)
-schedule.every().day.at("04:00").do(cycle2)
-schedule.every().day.at("05:00").do(cycle2)
-schedule.every().day.at("06:00").do(cycle2)
-schedule.every().day.at("07:00").do(cycle2)
-schedule.every().day.at("08:00").do(cycle2)
-schedule.every().day.at("09:00").do(cycle2)
-schedule.every().day.at("10:00").do(cycle2)
-schedule.every().day.at("11:00").do(cycle2)
-schedule.every().day.at("12:00").do(cycle2)
-schedule.every().day.at("13:00").do(cycle2)
-schedule.every().day.at("14:00").do(cycle2)
-schedule.every().day.at("15:00").do(cycle2)
-schedule.every().day.at("16:00").do(cycle2)
-schedule.every().day.at("17:00").do(cycle2)
-schedule.every().day.at("18:00").do(cycle2)
-schedule.every().day.at("19:00").do(cycle2)
-schedule.every().day.at("20:00").do(cycle2)
-schedule.every().day.at("21:00").do(cycle2)
-schedule.every().day.at("22:00").do(cycle2)
-schedule.every().day.at("23:00").do(cycle2)
+schedule.every().day.at("00:00").do(cycle)
+schedule.every().day.at("01:00").do(cycle)
+schedule.every().day.at("02:00").do(cycle)
+schedule.every().day.at("03:00").do(cycle)
+schedule.every().day.at("04:00").do(cycle)
+schedule.every().day.at("05:00").do(cycle)
+schedule.every().day.at("06:00").do(cycle)
+schedule.every().day.at("07:00").do(cycle)
+schedule.every().day.at("08:00").do(cycle)
+schedule.every().day.at("09:00").do(cycle)
+schedule.every().day.at("10:00").do(cycle)
+schedule.every().day.at("11:00").do(cycle)
+schedule.every().day.at("12:00").do(cycle)
+schedule.every().day.at("13:00").do(cycle)
+schedule.every().day.at("14:00").do(cycle)
+schedule.every().day.at("15:00").do(cycle)
+schedule.every().day.at("16:00").do(cycle)
+schedule.every().day.at("17:00").do(cycle)
+schedule.every().day.at("18:00").do(cycle)
+schedule.every().day.at("19:00").do(cycle)
+schedule.every().day.at("20:00").do(cycle)
+schedule.every().day.at("21:00").do(cycle)
+schedule.every().day.at("22:00").do(cycle)
+schedule.every().day.at("23:00").do(cycle)
 
 schedule.every().day.at("00:30").do(cycle)
 schedule.every().day.at("01:30").do(cycle)
