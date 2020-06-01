@@ -22,7 +22,7 @@ class wordCloudMaker:
     def test(self):
         return 1
 
-    def visualizeTimePeriod(self, inDF="", lastN=-1, windowSize=5, publications=[], out_dir="wordCloudImages", individual=False, verbose=False):
+    def generateWordClouds(self, inDF="", lastN=-1, windowSize=5, publications=[], out_dir="wordCloudImages", individual=False, verbose=False):
         """ takes a DF of date deliniated articles and generates a bunch of images in target folder """
 
         if verbose:
@@ -117,8 +117,12 @@ class wordCloudMaker:
                 plt.savefig("{}/{}.jpg".format(out_dir, dateIdx), bbox_inches = 'tight', pad_inches = 0)
                 plt.close()
 
-    def visualizeTimePeriod(self, img_dr="wordCloudImages", outdir="animatedGIFs", vid_name="test.gif", remove=False):
+    def generateBarCharts(self, inDF="", lastN=-1, windowSize=5, publications=[], out_dir="wordCloudImages", individual=False, verbose=False):
+        return -1
 
+    def visualizeTimePeriod(self, img_dr="wordCloudImages", outdir="animatedGIFs", vid_name="test.gif", remove=False):
+        """ Create animation from frames """
+        """ I want to be able to do the chart that flips from top to """
         imagePaths = sorted([int(x[:-4]) for x in os.listdir(img_dr) if x.endswith("jpg")])
 
         images = [img_dr + "/" + str(x) + ".jpg" for x in imagePaths]
