@@ -10,6 +10,7 @@ from sklearn.feature_extraction import text
 import datetime
 from datetime import timezone
 import matplotlib.pyplot as plt
+import math
 
 """
 
@@ -45,12 +46,16 @@ class wordCruncher:
         self.colors = ["orange", "green", "red", "brown", "blue", "yellow", "pink"]
         self.bigdf = ""
 
-    def loadArticles(self, pubList=[], dateStart = -1, dateEnd = -1):
+    def loadArticles(self, pubList=[], dateStart = -1, dateEnd = -1, lastN=-1):
         """ load text of articles into a dictionary """
         getPubs = pubList
         if pubList == []:
             getPubs = self.allPubs
 
+        myDate_start = dateStart
+        if lastN != -1:
+            myDate_start = (datetime.datetime.today()-datetime.timedelta(days=math.ceil(lastN/24))).strftime("%Y%m%d")
+            print(myDate_start)
 
         self.articles = {}
         for pub in getPubs:
@@ -58,7 +63,7 @@ class wordCruncher:
                 print("No folder found for {}".format(pub))
                 continue
 
-            self.articles[pub] = self.loadPubArticles(pub, dateStart, dateEnd)
+            self.articles[pub] = self.loadPubArticles(pub, myDate_start, dateEnd)
 
     def loadPubArticles(self, publisher, dateStart=-1, dateEnd=-1):
         """ Loads articles from dateStart to dateEnd into articles as a dataframe in a dict"""
@@ -91,11 +96,14 @@ class wordCruncher:
 
     def stemArticle(self, some_df):
         #from stemmer, get list of stemmed words
-        stemmer = SnowballStemmer("english", ignore_stopwords=True)
-        some_df["quickReplace"] = some_df["text"].apply(lambda x: re.sub('[^a-z]+', " ", x.lower()))
-        some_df["tokens"] = some_df["quickReplace"].apply(lambda x: [stemmer.stem(y) for y in x.split() if len (y) > 2])
-        some_df["quickReplace"] = some_df["tokens"].apply(lambda x: " ".join(x))
-        return some_df
+        try:
+            stemmer = SnowballStemmer("english", ignore_stopwords=True)
+            some_df["quickReplace"] = some_df["text"].fillna("").apply(lambda x: re.sub('[^a-z]+', " ", x.lower()))
+            some_df["tokens"] = some_df["quickReplace"].apply(lambda x: [stemmer.stem(y) for y in x.split() if len (y) > 2])
+            some_df["quickReplace"] = some_df["tokens"].apply(lambda x: " ".join(x))
+            return some_df
+        except:
+            return None
 
 
     def buildBigDF(self):
@@ -115,7 +123,7 @@ class wordCruncher:
             return None
         stemmer = SnowballStemmer("english", ignore_stopwords=True)
 
-        self.bigdf= pd.concat([self.loadPubArticles(x) for x in self.articles]).fillna("")
+        self.bigdf= pd.concat([self.articles[x] for x in self.articles]).fillna("")
 
 
         #testing["quickReplace"] = testing["text"].apply(lambda x: re.sub('[^a-z]+', " ", x.lower()))
