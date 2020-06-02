@@ -42,7 +42,7 @@ class wordCruncher:
         self.ready = False
         self.vectorizer = None
         self.sources = {}
-        self.extra_stopwords = ["news", "say", "said", "told", "tell", "day", "video", "week", "state", "new"]
+        self.extra_stopwords = ["news", "say", "said", "told", "tell", "day", "video", "week", "state", "new", "york", "times"]
         self.colors = ["orange", "green", "red", "brown", "blue", "yellow", "pink"]
         self.bigdf = ""
 
