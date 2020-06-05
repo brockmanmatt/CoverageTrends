@@ -25,9 +25,6 @@ class animator:
         self.df = ""
         self.extra_stopwords = ["news", "say", "said", "told", "tell", "day", "video", "week", "state", "new", "york", "times"]
 
-    def test(self):
-        return 1
-
     def generateWordClouds(self, inDF="", lastN=-1, windowSize=5, publications=[], out_dir="wordCloudImages", individual=False, verbose=False):
         """ takes a DF of date deliniated articles and generates a bunch of images in target folder """
 
@@ -123,8 +120,10 @@ class animator:
                 plt.savefig("{}/{}.jpg".format(out_dir, dateIdx), bbox_inches = 'tight', pad_inches = 0)
                 plt.close()
 
-    def generateBarCharts(self, inDF="", lastN=-1, windowSize=5, publications=["cnn", "foxnews"], out_dir="testBuildAnimation", verbose=False, keyword=""):
+    def generateBarCharts(self, inDF="", lastN=-1, windowSize=5, publications=["cnn", "foxnews"], out_dir="testBuildAnimation", verbose=False, keyword="", fsize=(12,12), extra_stopwords=[]):
         stopwords = text.ENGLISH_STOP_WORDS.union(self.extra_stopwords)
+        if len(extra_stopwords) > 0:
+            stopwords = stopwords.union(set(extra_stopwords))
 
         if verbose:
             print("started!")
@@ -166,7 +165,7 @@ class animator:
             tmp = self.df[self.df.date.isin(targetDates[dateIdx:dateIdx+windowSize])].copy()
             tmp["count"] = vectorizer.transform(tmp.quickReplace)
 
-            fig, axs = plt.subplots(nrows =1, ncols=2, figsize=(12,12))
+            fig, axs = plt.subplots(nrows =1, ncols=2, figsize=fsize)
 
             for srcIdx in range(2): # go through each of the publications, just doing 2 for now
                 mySource = mySources[srcIdx]
@@ -220,6 +219,7 @@ class animator:
                     axs[srcIdx].invert_xaxis()
                     axs[srcIdx].yaxis.set_label_position("right")
                     axs[srcIdx].yaxis.tick_right()
+                    axs[srcIdx].set(adjustable='box')
 
 
 
@@ -227,8 +227,7 @@ class animator:
             fig.savefig("{}/{}.jpg".format(out_dir, dateIdx), bbox_inches = 'tight', pad_inches = 0)
             plt.close()
 
-
-    def visualizeTimePeriod(self, img_dr="wordCloudImages", outdir="animatedGIFs", vid_name="test.gif", remove=False, frameSpeed=1):
+    def visualizeTimePeriod(self, img_dr="wordCloudImages", outdir="animatedGIFs", vid_name="test.gif", remove=False, frameSpeed=1, subrectangles=False, palettesize=256):
         """ Create animation from frames """
         """ I want to be able to do the chart that flips from top to """
         imagePaths = sorted([int(x[:-4]) for x in os.listdir(img_dr) if x.endswith("jpg")])
@@ -248,6 +247,6 @@ class animator:
             except:
                 continue
 
-        imageio.mimwrite("{}/{}".format(outdir, vid_name), image_list, duration = frameSpeed)
+        imageio.mimwrite("{}/{}".format(outdir, vid_name), image_list, duration = frameSpeed, subrectangles=subrectangles, palettesize=palettesize)
         gif_path = "{}/{}".format(outdir, vid_name)
         optimize(gif_path)
