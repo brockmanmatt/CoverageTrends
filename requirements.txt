@@ -13,3 +13,4 @@ pillow
 pmdarima
 imageio
 wordcloud
+newstrends
