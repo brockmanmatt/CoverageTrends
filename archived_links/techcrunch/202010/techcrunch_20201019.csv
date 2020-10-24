@@ -1,0 +1,915 @@
+,text,notes,date
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0000
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0000
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0000
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0000
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0000
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0000
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0000
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0000
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0000
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0000
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0000
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0000
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0000
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0000
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0000
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0000
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0000
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0000
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0000
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0000
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0030
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0030
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0030
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0030
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0030
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0030
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0030
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0030
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0030
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0030
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0030
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0030
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0030
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0030
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0030
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0030
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0030
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0030
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0030
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0030
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0100
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0100
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0100
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0100
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0100
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0100
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0100
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0100
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0100
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0100
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0100
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0100
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0100
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0100
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0100
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0100
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0100
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0100
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0100
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0100
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0130
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0130
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0130
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0130
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0130
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0130
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0130
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0130
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0130
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0130
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0130
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0130
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0130
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0130
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0130
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0130
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0130
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0130
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0130
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0130
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0200
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0200
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0200
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0200
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0200
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0200
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0200
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0200
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0200
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0200
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0200
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0200
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0200
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0200
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0200
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0200
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0200
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0200
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0200
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0200
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0230
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0230
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0230
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0230
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0230
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0230
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0230
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0230
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0230
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0230
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0230
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0230
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0230
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0230
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0230
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0230
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0230
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0230
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0230
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0230
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0300
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0300
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0300
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0300
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0300
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0300
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0300
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0300
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0300
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0300
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0300
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0300
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0300
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0300
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0300
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0300
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0300
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0300
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0300
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0300
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0330
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0330
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0330
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0330
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0330
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0330
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0330
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0330
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0330
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0330
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0330
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0330
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0330
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0330
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0330
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0330
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0330
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0330
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0330
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0330
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0400
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0400
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0400
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0400
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0400
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0400
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0400
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0400
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0400
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0400
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0400
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0400
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0400
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0400
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0400
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0400
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0400
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0400
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0400
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0400
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0430
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0430
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0430
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0430
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0430
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0430
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0430
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0430
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0430
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0430
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0430
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0430
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0430
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0430
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0430
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0430
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0430
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0430
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0430
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0430
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0500
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0500
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0500
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0500
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0500
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0500
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0500
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0500
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0500
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0500
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0500
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0500
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0500
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0500
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0500
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0500
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0500
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0500
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0500
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0500
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0530
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0530
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0530
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0530
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0530
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0530
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0530
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0530
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0530
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0530
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0530
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0530
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0530
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0530
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0530
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0530
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0530
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0530
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0530
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0530
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0600
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0600
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0600
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0600
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0600
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0600
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0600
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0600
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0600
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0600
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0600
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0600
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0600
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0600
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0600
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0600
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0600
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0600
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0600
+/2020/10/16/the-need-for-true-equity-in-equity-compensation/,The need for true equity in equity compensation,h2,20201019-0600
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0630
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-0630
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0630
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0630
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0630
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0630
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0630
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0630
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0630
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0630
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0630
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0630
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0630
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0630
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0630
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0630
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0630
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0630
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0630
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0630
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0700
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-0700
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0700
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0700
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0700
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0700
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0700
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0700
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0700
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0700
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0700
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0700
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0700
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0700
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0700
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0700
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0700
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0700
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0700
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0700
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0730
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-0730
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0730
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0730
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0730
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0730
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0730
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0730
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0730
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0730
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0730
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0730
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0730
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0730
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0730
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0730
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0730
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0730
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0730
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0730
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0800
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-0800
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0800
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0800
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0800
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0800
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0800
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0800
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0800
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0800
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0800
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0800
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0800
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0800
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0800
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0800
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0800
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0800
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0800
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0800
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0830
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-0830
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0830
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0830
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0830
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0830
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0830
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0830
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0830
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0830
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0830
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0830
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0830
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0830
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0830
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0830
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0830
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0830
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0830
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0830
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0900
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-0900
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0900
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0900
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0900
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0900
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0900
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0900
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0900
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0900
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0900
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0900
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0900
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0900
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0900
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0900
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0900
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0900
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0900
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0900
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-0930
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-0930
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-0930
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-0930
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-0930
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-0930
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-0930
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-0930
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-0930
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-0930
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-0930
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-0930
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-0930
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-0930
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-0930
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-0930
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-0930
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-0930
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-0930
+/2020/10/16/crypto-driven-marketplace-zora-raises-2m-to-build-a-sustainable-creator-economy/,Crypto-driven marketplace Zora raises $2M to build a sustainable creator economy,h2,20201019-0930
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-1000
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1000
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-1000
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-1000
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-1000
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-1000
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-1000
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-1000
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-1000
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-1000
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-1000
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-1000
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-1000
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-1000
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-1000
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-1000
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-1000
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-1000
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-1000
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-1000
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-1030
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1030
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-1030
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-1030
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-1030
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-1030
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-1030
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-1030
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-1030
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-1030
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-1030
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-1030
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-1030
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-1030
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-1030
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-1030
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-1030
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-1030
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-1030
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-1030
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-1100
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1100
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-1100
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-1100
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-1100
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-1100
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-1100
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-1100
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-1100
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-1100
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-1100
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-1100
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-1100
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-1100
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-1100
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-1100
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-1100
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-1100
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-1100
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-1100
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-1130
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1130
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-1130
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-1130
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-1130
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-1130
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-1130
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-1130
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-1130
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-1130
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-1130
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-1130
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-1130
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-1130
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-1130
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-1130
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-1130
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-1130
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-1130
+/2020/10/16/datto-sets-initial-ipo-price-range-indicating-a-valuation-of-around-4b/,"Datto sets initial IPO price range, indicating a valuation of around $4B",h2,20201019-1130
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-1200
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1200
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1200
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-1200
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-1200
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-1200
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-1200
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-1200
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-1200
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-1200
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-1200
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-1200
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-1200
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-1200
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-1200
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-1200
+/2020/10/16/analogue-takes-on-the-turbografx-16-with-its-duo-retro-console/,Analogue takes on the TurboGrafx-16 with its Duo retro console,h2,20201019-1200
+/2020/10/16/we-need-universal-digital-ad-transparency-now/,We need universal digital ad transparency now,h2,20201019-1200
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h2,20201019-1200
+/2020/10/16/eus-google-fitbit-antitrust-decision-deadline-pushed-into-2021/,EU’s Google-Fitbit antitrust decision deadline pushed into 2021,h2,20201019-1200
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-1300
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-1300
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-1300
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready, Set, Raise, an accelerator for women built by women, announces third class",h2,20201019-1300
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-1300
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1300
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1300
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-1300
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-1300
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-1300
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-1300
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-1300
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-1300
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-1300
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-1300
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-1300
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-1300
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-1300
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-1300
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-1300
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h3,20201019-1300
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-1330
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-1330
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-1330
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready, Set, Raise, an accelerator for women built by women, announces third class",h2,20201019-1330
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-1330
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1330
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1330
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-1330
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-1330
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-1330
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-1330
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-1330
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-1330
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-1330
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-1330
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-1330
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-1330
+/2020/10/16/human-capital-prop-22-puts-the-future-of-labor-at-stake/,Human Capital: Prop 22 puts the ‘future of labor’ at stake,h2,20201019-1330
+/2020/10/16/pearpop-lets-tiktok-celebrities-monetize-by-sharing-shoutouts-and-screentime-with-fans/,PearPop lets TikTok celebrities monetize by sharing shout-outs and screen time with fans,h2,20201019-1330
+/2020/10/16/private-equity-firms-can-offer-enterprise-startups-a-viable-exit-option/,Private equity firms can offer enterprise startups a viable exit option,h2,20201019-1330
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h3,20201019-1330
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-1400
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-1400
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-1400
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-1400
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-1400
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-1400
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready, Set, Raise, an accelerator for women built by women, announces third class",h2,20201019-1400
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-1400
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1400
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1400
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-1400
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-1400
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-1400
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-1400
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-1400
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-1400
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-1400
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-1400
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-1400
+/2020/10/16/lawmatics-seed-funding/,Lawmatics raises $2.5M to help lawyers market themselves,h2,20201019-1400
+/2020/10/16/elon-musks-las-vegas-loop-might-only-carry-a-fraction-of-the-passengers-it-promised/,Elon Musk’s Las Vegas Loop might only carry a fraction of the passengers it promised,h3,20201019-1400
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-1430
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-1430
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-1430
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-1430
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-1430
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-1430
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-1430
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready, Set, Raise, an accelerator for women built by women, announces third class",h2,20201019-1430
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-1430
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1430
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1430
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-1430
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-1430
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-1430
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-1430
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-1430
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-1430
+/2020/10/16/where-to-vote-google-assistant-google-maps-search/,"Google Assistant, Maps and Search can now help you figure out where to vote",h2,20201019-1430
+/2020/10/16/daily-crunch-twitter-new-york-post/,Daily Crunch: Twitter walks back New York Post decision,h2,20201019-1430
+/2020/10/16/twitter-new-york-post/,Twitter is now allowing users to share that controversial New York Post story,h2,20201019-1430
+/2020/10/17/three-views-on-the-future-of-media-startups/,Three views on the future of media startups,h2,20201019-1530
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-1530
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-1530
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a U.S.-only music video station, Apple Music TV",h2,20201019-1530
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-1530
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-1530
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-1530
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-1530
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-1530
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-1530
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready, Set, Raise, an accelerator for women built by women, announces third class",h2,20201019-1530
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-1530
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1530
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1530
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-1530
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-1530
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-1530
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-1530
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-1530
+/2020/10/16/pear-hosted-its-invite-only-demo-day-online-year-heres-what-you-might-have-missed/,Pear hosted its invite-only demo day online this year; here’s what you might have missed,h2,20201019-1530
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-1600
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-1600
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-1600
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-1600
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a U.S.-only music video station, Apple Music TV",h2,20201019-1600
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-1600
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-1600
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-1600
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-1600
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-1600
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-1600
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready, Set, Raise, an accelerator for women built by women, announces third class",h2,20201019-1600
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-1600
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1600
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1600
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-1600
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-1600
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-1600
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-1600
+/2020/10/17/original-content-emily-in-paris/,Original Content podcast: It’s hard to resist the silliness of ‘Emily in Paris’,h2,20201019-1600
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-1630
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-1630
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-1630
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-1630
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-1630
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a U.S.-only music video station, Apple Music TV",h2,20201019-1630
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-1630
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-1630
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-1630
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-1630
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-1630
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-1630
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready Set Raise, an accelerator for women built by women, announces third class",h2,20201019-1630
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-1630
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1630
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1630
+/2020/10/18/alibaba-group-will-spend-3-6-billion-to-take-control-of-chinese-supermarket-giant-sun-art/,Alibaba Group will spend $3.6 billion to take control of Chinese supermarket giant Sun Art,h2,20201019-1630
+/2020/10/17/vcs-reload-ahead-of-the-election-as-unicorns-power-ahead/,VCs reload ahead of the election as unicorns power ahead,h2,20201019-1630
+/2020/10/17/solve-the-dead-equity-problem-with-a-longer-founder-vesting-schedule/,Solve the ‘dead equity’ problem with a longer founder vesting schedule,h2,20201019-1630
+/2020/10/17/this-week-in-apps-apples-big-event-lidar-comes-to-iphone-android-gets-a-new-ide/,"This Week in Apps: Apple’s big event, lidar comes to iPhone, Android gets a new IDE",h2,20201019-1630
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-1730
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-1730
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,U.S. charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-1730
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-1730
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-1730
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-1730
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-1730
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-1730
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-1730
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-1730
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-1730
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-1730
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-1730
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-1730
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-1730
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-1730
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready Set Raise, an accelerator for women built by women, announces third class",h2,20201019-1730
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-1730
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1730
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1730
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-1800
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-1800
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,US charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-1800
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-1800
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-1800
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-1800
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-1800
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-1800
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-1800
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-1800
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-1800
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-1800
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-1800
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-1800
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-1800
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-1800
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready Set Raise, an accelerator for women built by women, announces third class",h2,20201019-1800
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-1800
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1800
+/2020/10/19/instagrams-handling-of-kids-data-is-now-being-probed-in-the-eu/,Instagram’s handling of kids’ data is now being probed in the EU,h2,20201019-1800
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-1830
+/2020/10/19/lockheed-picks-relativitys-3d-printed-rocket-for-experimental-nasa-mission/,Lockheed picks Relativity’s 3D-printed rocket for experimental NASA mission,h2,20201019-1830
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-1830
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,US charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-1830
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-1830
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-1830
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-1830
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-1830
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-1830
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-1830
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-1830
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-1830
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-1830
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-1830
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-1830
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-1830
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-1830
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready Set Raise, an accelerator for women built by women, announces third class",h2,20201019-1830
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-1830
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1830
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-1900
+/2020/10/19/lockheed-picks-relativitys-3d-printed-rocket-for-experimental-nasa-mission/,Lockheed picks Relativity’s 3D-printed rocket for experimental NASA mission,h2,20201019-1900
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-1900
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,US charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-1900
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-1900
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-1900
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-1900
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-1900
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-1900
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-1900
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-1900
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-1900
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-1900
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-1900
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-1900
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-1900
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-1900
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready Set Raise, an accelerator for women built by women, announces third class",h2,20201019-1900
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-1900
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1900
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-1930
+/2020/10/19/lockheed-picks-relativitys-3d-printed-rocket-for-experimental-nasa-mission/,Lockheed picks Relativity’s 3D-printed rocket for experimental NASA mission,h2,20201019-1930
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-1930
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,US charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-1930
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-1930
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-1930
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-1930
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-1930
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-1930
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-1930
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-1930
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-1930
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-1930
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-1930
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-1930
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-1930
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-1930
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready Set Raise, an accelerator for women built by women, announces third class",h2,20201019-1930
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-1930
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h2,20201019-1930
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-2000
+/2020/10/19/juniper-networks-acquires-boston-area-ai-sd-wan-startup-128-technology-for-450m/,Juniper Networks acquires Boston-area AI SD-WAN startup 128 Technology for $450M,h2,20201019-2000
+/2020/10/19/lockheed-picks-relativitys-3d-printed-rocket-for-experimental-nasa-mission/,Lockheed picks Relativity’s 3D-printed rocket for experimental NASA mission,h2,20201019-2000
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-2000
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,US charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-2000
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-2000
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-2000
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-2000
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-2000
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-2000
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-2000
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-2000
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-2000
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-2000
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-2000
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-2000
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-2000
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-2000
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready Set Raise, an accelerator for women built by women, announces third class",h2,20201019-2000
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-2000
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h3,20201019-2000
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-2030
+/2020/10/19/juniper-networks-acquires-boston-area-ai-sd-wan-startup-128-technology-for-450m/,Juniper Networks acquires Boston-area AI SD-WAN startup 128 Technology for $450M,h2,20201019-2030
+/2020/10/19/lockheed-picks-relativitys-3d-printed-rocket-for-experimental-nasa-mission/,Lockheed picks Relativity’s 3D-printed rocket for experimental NASA mission,h2,20201019-2030
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-2030
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,US charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-2030
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-2030
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-2030
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-2030
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-2030
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-2030
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-2030
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-2030
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-2030
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-2030
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-2030
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-2030
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-2030
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-2030
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready Set Raise, an accelerator for women built by women, announces third class",h2,20201019-2030
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h2,20201019-2030
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h3,20201019-2030
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-2100
+/2020/10/19/who-regulates-social-media/,Who regulates social media?,h2,20201019-2100
+/2020/10/19/juniper-networks-acquires-boston-area-ai-sd-wan-startup-128-technology-for-450m/,Juniper Networks acquires Boston-area AI SD-WAN startup 128 Technology for $450M,h2,20201019-2100
+/2020/10/19/lockheed-picks-relativitys-3d-printed-rocket-for-experimental-nasa-mission/,Lockheed picks Relativity’s 3D-printed rocket for experimental NASA mission,h2,20201019-2100
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-2100
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,US charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-2100
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-2100
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-2100
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-2100
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-2100
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-2100
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-2100
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-2100
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-2100
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-2100
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-2100
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-2100
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-2100
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-2100
+/2020/10/19/ready-set-raise-an-accelerator-for-women-third-class/,"Ready Set Raise, an accelerator for women built by women, announces third class",h2,20201019-2100
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h3,20201019-2100
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h3,20201019-2100
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-2130
+/2020/10/19/amazon-echo-dot-with-clock-review-a-mostly-aesthetic-update/,Amazon Echo Dot with Clock review: A mostly aesthetic update,h2,20201019-2130
+/2020/10/19/who-regulates-social-media/,Who regulates social media?,h2,20201019-2130
+/2020/10/19/juniper-networks-acquires-boston-area-ai-sd-wan-startup-128-technology-for-450m/,Juniper Networks acquires Boston-area AI SD-WAN startup 128 Technology for $450M,h2,20201019-2130
+/2020/10/19/lockheed-picks-relativitys-3d-printed-rocket-for-experimental-nasa-mission/,Lockheed picks Relativity’s 3D-printed rocket for experimental NASA mission,h2,20201019-2130
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-2130
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,US charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-2130
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-2130
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-2130
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-2130
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-2130
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-2130
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-2130
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-2130
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-2130
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-2130
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-2130
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-2130
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-2130
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-2130
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h3,20201019-2130
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h3,20201019-2130
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-2200
+/2020/10/19/amazon-echo-dot-with-clock-review-a-mostly-aesthetic-update/,Amazon Echo Dot with Clock review: A mostly aesthetic update,h2,20201019-2200
+/2020/10/19/who-regulates-social-media/,Who regulates social media?,h2,20201019-2200
+/2020/10/19/juniper-networks-acquires-boston-area-ai-sd-wan-startup-128-technology-for-450m/,Juniper Networks acquires Boston-area AI SD-WAN startup 128 Technology for $450M,h2,20201019-2200
+/2020/10/19/lockheed-picks-relativitys-3d-printed-rocket-for-experimental-nasa-mission/,Lockheed picks Relativity’s 3D-printed rocket for experimental NASA mission,h2,20201019-2200
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-2200
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,US charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-2200
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-2200
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-2200
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-2200
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-2200
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-2200
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-2200
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-2200
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-2200
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-2200
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-2200
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-2200
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-2200
+/2020/10/19/singapore-tech-based-real-estate-agency-propseller-raises-1-2-million-seed-round/,Singapore tech-based real estate agency Propseller raises $1.2 million seed round,h2,20201019-2200
+/2020/10/19/pakistan-lifts-ban-on-tiktok/,Pakistan lifts ban on TikTok,h3,20201019-2200
+/2020/10/19/spacex-successfully-launches-60-more-starlink-satellites-bringing-total-delivered-to-orbit-to-more-than-800/,"SpaceX successfully launches 60 more Starlink satellites, bringing total delivered to orbit to more than 800",h3,20201019-2200
+/2020/10/19/who-regulates-social-media/,Who regulates social media?,h2,20201019-2230
+/2020/10/19/daily-crunch-pakistan-un-bans-tiktok/,Daily Crunch: Pakistan un-bans TikTok,h2,20201019-2230
+/2020/10/19/amazon-echo-dot-with-clock-review-a-mostly-aesthetic-update/,Amazon Echo Dot with Clock review: A mostly aesthetic update,h2,20201019-2230
+/2020/10/19/juniper-networks-acquires-boston-area-ai-sd-wan-startup-128-technology-for-450m/,Juniper Networks acquires Boston-area AI SD-WAN startup 128 Technology for $450M,h2,20201019-2230
+/2020/10/19/lockheed-picks-relativitys-3d-printed-rocket-for-experimental-nasa-mission/,Lockheed picks Relativity’s 3D-printed rocket for experimental NASA mission,h2,20201019-2230
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-2230
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,US charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-2230
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-2230
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-2230
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-2230
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-2230
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-2230
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-2230
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-2230
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-2230
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-2230
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-2230
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-2230
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-2230
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h2,20201019-2230
+/2020/10/19/who-regulates-social-media/,Who regulates social media?,h2,20201019-2300
+/2020/10/19/tiktoks-qanon-ban-has-been-buggy/,TikTok’s QAnon ban has been ‘buggy’,h2,20201019-2300
+/2020/10/19/daily-crunch-pakistan-un-bans-tiktok/,Daily Crunch: Pakistan un-bans TikTok,h2,20201019-2300
+/2020/10/19/amazon-echo-dot-with-clock-review-a-mostly-aesthetic-update/,Amazon Echo Dot with Clock review: A mostly aesthetic update,h2,20201019-2300
+/2020/10/19/juniper-networks-acquires-boston-area-ai-sd-wan-startup-128-technology-for-450m/,Juniper Networks acquires Boston-area AI SD-WAN startup 128 Technology for $450M,h2,20201019-2300
+/2020/10/19/lockheed-picks-relativitys-3d-printed-rocket-for-experimental-nasa-mission/,Lockheed picks Relativity’s 3D-printed rocket for experimental NASA mission,h2,20201019-2300
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-2300
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,US charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-2300
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-2300
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-2300
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-2300
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-2300
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-2300
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-2300
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-2300
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-2300
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-2300
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-2300
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-2300
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h2,20201019-2300
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h3,20201019-2300
+/2020/10/19/who-regulates-social-media/,Who regulates social media?,h2,20201019-2330
+/2020/10/19/lee-fixel-burnishes-his-reputation-raising-his-second-massive-fund-in-2020/,"Lee Fixel burnishes his reputation, raising his second massive fund in 2020",h2,20201019-2330
+/2020/10/19/tiktoks-qanon-ban-has-been-buggy/,TikTok’s QAnon ban has been ‘buggy’,h2,20201019-2330
+/2020/10/19/daily-crunch-pakistan-un-bans-tiktok/,Daily Crunch: Pakistan un-bans TikTok,h2,20201019-2330
+/2020/10/19/amazon-echo-dot-with-clock-review-a-mostly-aesthetic-update/,Amazon Echo Dot with Clock review: A mostly aesthetic update,h2,20201019-2330
+/2020/10/19/juniper-networks-acquires-boston-area-ai-sd-wan-startup-128-technology-for-450m/,Juniper Networks acquires Boston-area AI SD-WAN startup 128 Technology for $450M,h2,20201019-2330
+/2020/10/19/lockheed-picks-relativitys-3d-printed-rocket-for-experimental-nasa-mission/,Lockheed picks Relativity’s 3D-printed rocket for experimental NASA mission,h2,20201019-2330
+/2020/10/19/disney-ux-teardown-wins-fails-and-fixes/,"Disney+ UX teardown: Wins, fails and fixes",h2,20201019-2330
+/2020/10/19/justice-department-russian-hackers-notpetya-ukraine/,US charges Russian hackers blamed for Ukraine power outages and the NotPetya ransomware attack,h2,20201019-2330
+/2020/10/19/late-stage-deals-made-q3-2020-a-standout-vc-quarter-for-us-based-startups/,Late-stage deals made Q3 2020 a standout VC quarter for US-based startups,h2,20201019-2330
+/2020/10/19/raspberry-pi-foundation-launches-compute-module-4-for-industrial-users/,Raspberry Pi Foundation launches Compute Module 4 for industrial users,h2,20201019-2330
+/2020/10/19/stitchers-podcasts-arrive-on-pandora-with-acquisitions-completion/,Stitcher’s podcasts arrive on Pandora with acquisition’s completion,h2,20201019-2330
+/2020/10/19/eu-switches-on-cross-border-interoperability-for-first-batch-of-covid-19-contacts-tracing-apps/,EU switches on cross-border interoperability for first batch of COVID-19 contacts tracing apps,h2,20201019-2330
+/2020/10/19/are-vcs-cutting-checks-in-the-closing-days-of-the-2020-election/,Are VCs cutting checks in the closing days of the 2020 election?,h2,20201019-2330
+/2020/10/19/the-openstack-foundation-becomes-the-open-infrastructure-foundation/,The OpenStack Foundation becomes the Open Infrastructure Foundation,h2,20201019-2330
+/2020/10/19/amc-offers-private-theater-rentals-starting-at-99-as-cinemas-continue-to-struggle/,"AMC offers private theater rentals starting at $99, as cinemas continue to struggle",h2,20201019-2330
+/2020/10/19/apple-launches-a-u-s-only-music-video-station-apple-music-tv/,"Apple launches a US-only music video station, Apple Music TV",h2,20201019-2330
+/2020/10/19/pimloc-gets-1-8m-for-its-ai-based-visual-search-and-redaction-tool/,Pimloc gets $1.8M for its AI-based visual search and redaction tool,h2,20201019-2330
+/2020/10/19/mobile-by-peak-design-is-a-new-complete-mobile-mounting-solution-for-photography-and-everyday-convenience/,"Mobile by Peak Design is a new, complete mobile mounting solution for everyday convenience",h2,20201019-2330
+/2020/10/19/equity-monday-three-neat-venture-rounds-and-alibabas-latest/,"Equity Monday: Three neat venture rounds, and Alibaba’s latest",h2,20201019-2330
+/2020/10/19/google-cloud-launches-lending-docai-its-first-dedicated-mortgage-industry-tool/,"Google Cloud launches Lending DocAI, its first dedicated mortgage industry tool",h3,20201019-2330
+/2020/10/19/facebook-introduces-a-new-messenger-api-with-support-for-instagram/,Facebook introduces a new Messenger API with support for Instagram,h3,20201019-2330
